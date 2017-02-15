@@ -9,8 +9,8 @@ package ru.job4j;
 */
 public class Calculate {
 	/**
- *@param args string.
- */
+	*@param args string.
+	*/
 	public static void main(String[] args) {
 		System.out.print("Hello world!");
 	}
