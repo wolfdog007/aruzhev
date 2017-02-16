@@ -12,11 +12,22 @@ import static org.junit.Assert.assertThat;
  */
 public class MaxTest {
     /**
+     *
      * Test on maximum number.
      */
     @Test
     public void getMaxNumberTest() {
         Max max = new Max();
         assertThat(15, is(max.getMaxNumber(15, 13)));
+    }
+
+    /**
+     *
+     * Test on maximum number of third numbers.
+     */
+    @Test
+    public void getMaxNumberTestFotThirdNumbers() {
+        Max max = new Max();
+        assertThat(17, is(max.getMaxNumber(15, 13, 17)));
     }
 }

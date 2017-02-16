@@ -17,4 +17,16 @@ class Max {
 	public int getMaxNumber(int first, int second) {
 		return first < second ? second : first;
 	}
+
+	/**
+	 * Returns maximum number.
+	 *
+	 * @param first  first number
+	 * @param second second number
+	 * @param third third number
+	 * @return result max number
+	 */
+	public int getMaxNumber(int first, int second, int third) {
+		return getMaxNumber(getMaxNumber(first, second), third);
+	}
 }
