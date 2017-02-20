@@ -1,7 +1,7 @@
 package ru.job4j;
 
 /**
- * Class Max returns the maximum number of two.
+ * Class Paint - constuct Piramid in String.
  *
  * @author Ruzhev Alexander
  * @since 20.02.2017
