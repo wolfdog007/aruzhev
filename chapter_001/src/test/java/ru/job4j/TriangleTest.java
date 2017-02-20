@@ -31,4 +31,6 @@ public class TriangleTest {
         String result = String.format("%.1f", triangle.getTriangleArea());
         assertThat(String.format("%.1f", -1.0), is(String.format("%.1f", triangle.getTriangleArea())));
     }
+
+
 }
