@@ -15,7 +15,7 @@ public class DuplicatesDeleterTest {
      * Test on DuplicatesDeleter.removeDuplicates.
      */
     @Test
-    public void whenSort() {
+    public void whenRemoveDuplicates() {
         DuplicatesDeleter duplicatesDeleter = new DuplicatesDeleter();
         String[] array = {"1", "1", "2", "2", "3", "3"};
         String[] arrayTest = {"1", "2", "3"};
