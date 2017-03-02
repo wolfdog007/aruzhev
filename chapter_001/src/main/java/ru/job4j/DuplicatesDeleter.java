@@ -16,14 +16,15 @@ public class DuplicatesDeleter {
      * @return String[] array - array without duplicates
      */
     public String[] removeDuplicates(String[] array) {
-        for (int i = 0; i < array.length; i++) {
-            for (int j = i + 1; j < array.length; j++) {
+        int temp = 0;
+        for (int i = 0; i < array.length - temp; i++) {
+            for (int j = i + 1; j < array.length - temp; j++) {
                 if (array[i].equals(array[j])) {
                     System.arraycopy(array, j + 1, array, j, array.length - j - 1);
-                    array = Arrays.copyOf(array, array.length - 1);
+                    temp++;
                 }
             }
         }
-        return array;
+        return Arrays.copyOf(array, array.length - temp);
     }
 }
