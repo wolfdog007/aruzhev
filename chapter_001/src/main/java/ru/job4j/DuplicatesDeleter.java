@@ -1,5 +1,7 @@
 package ru.job4j;
 
+import java.util.Arrays;
+
 /**
  * Removes duplicates from the array.
  *
