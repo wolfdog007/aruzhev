@@ -1,6 +1,7 @@
 package ru.job4j;
 
 import org.junit.Test;
+
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
@@ -18,7 +19,7 @@ public class SubStringTest {
     public void whenContainsIsTrue() {
         SubString subString = new SubString();
         String origin = "in vino veritas";
-        String sub = "vino";
+        String sub = "tas";
         assertThat(true, is(subString.contains(origin, sub)));
     }
 
@@ -29,7 +30,7 @@ public class SubStringTest {
     public void whenContainsIsFalse() {
         SubString subString = new SubString();
         String origin = "in vino veritas";
-        String sub = "venom";
+        String sub = "tasa";
         assertThat(false, is(subString.contains(origin, sub)));
     }
 

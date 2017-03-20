@@ -11,7 +11,7 @@ public class SubString {
      * The method returns true if substring is contained in string.
      *
      * @param origin - location search
-     * @param sub - the object of the search
+     * @param sub    - the object of the search
      * @return result - true or false
      */
     public boolean contains(String origin, String sub) {
@@ -24,6 +24,7 @@ public class SubString {
             }
             if (j == subChar.length) {
                 result = true;
+                break;
             }
         }
         return result;
