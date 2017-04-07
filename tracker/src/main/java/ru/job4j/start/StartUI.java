@@ -20,6 +20,7 @@ public class StartUI {
 
     /**
      * Constructor.
+     *
      * @param input object of Input.
      */
     public StartUI(Input input) {
@@ -28,6 +29,7 @@ public class StartUI {
 
     /**
      * Main method - start program.
+     *
      * @param args - array of String.
      */
     public static void main(String[] args) {
@@ -80,16 +82,18 @@ public class StartUI {
 
     /**
      * Output the elements of menu.
+     *
      * @param arrayMenuItems - the array of menu items
      */
     public void showMenu(String[] arrayMenuItems) {
         for (int index = 0; index < arrayMenuItems.length; index++) {
-            System.out.println(index + " - " + arrayMenuItems[index]);
+            System.out.printf("%s - %s%s", index, arrayMenuItems[index], System.lineSeparator());
         }
     }
 
     /**
      * Add new item.
+     *
      * @param tracker - object of Tracker
      */
     public void add(Tracker tracker) {
@@ -101,66 +105,71 @@ public class StartUI {
 
     /**
      * Output the elements of tracker.
+     *
      * @param tracker - object of Tracker
      */
     public void getAll(Tracker tracker) {
+        int count = 0;
         for (Item item : tracker.getAll()) {
             if (item != null) {
                 showTask(item);
-            } else {
-                System.out.println("The task list is empty");
+                count++;
             }
+        }
+        if (count == 0) {
+            System.out.println("The task list is empty");
         }
     }
 
     /**
      * the output of the content object.
+     *
      * @param item - contains information about the request
      */
     public void showTask(Item item) {
         System.out.println("-----------------------------");
-        System.out.println("Id          - " + item.getId());
-        System.out.println("Name        - " + item.getName());
-        System.out.println("Description - " + item.getDesc());
-        System.out.println("Created     - " + item.getCreated());
+        System.out.printf("Id          - %s%s", item.getId(), System.lineSeparator());
+        System.out.printf("Name        - %s%s", item.getName(), System.lineSeparator());
+        System.out.printf("Description - %s%s", item.getDesc(), System.lineSeparator());
+        System.out.printf("Created     - %s%s", item.getCreated(), System.lineSeparator());
         System.out.println("-----------------------------");
     }
 
     /**
      * Edit item menu.
+     *
      * @param tracker - object of Tracker
      */
     public void editItemMenu(Tracker tracker) {
         String answer = "no answer";
-        String[] upDateMenu = new String[]{"Update by name", "Update by id", "Return to main menu"};
+        String[] upDateMenu = new String[]{"Update by id", "Show all items", "Return to main menu"};
         do {
             showMenu(upDateMenu);
             answer = input.ask("enter the selected: ");
             if (answer.equals("0")) {
-                String name = input.ask("Input the task name: ");
-                Item changeItem = tracker.findByName(name);
-                showTask(changeItem);
-                tracker.update(update(changeItem));
-                break;
-            }
-            if (answer.equals("1")) {
                 String id = input.ask("Input the task id: ");
                 Item changeItem = tracker.findById(id);
-                showTask(changeItem);
-                tracker.update(update(changeItem));
-                break;
+                if (tracker.findById(id) != null) {
+                    showTask(changeItem);
+                    tracker.update(update(changeItem));
+                    break;
+                } else {
+                    System.out.println("This id not present");
+                }
             }
-
-        } while (answer.equals("2"));
+            if (answer.equals("1")) {
+                getAll(tracker);
+            }
+        } while (!answer.equals("2"));
     }
 
     /**
      * Changes the selected task.
+     *
      * @param item - contains information about the request
      * @return update item
      */
     public Item update(Item item) {
-        Item result = item;
         String answer = "no answer";
         String[] upDateMenu = new String[]{"Change name", "Change description", "Return to main menu"};
         do {
@@ -172,14 +181,15 @@ public class StartUI {
             }
             if (answer.equals("1")) {
                 String desc = input.ask("Input the new task description: ");
-                result.setDesc(desc);
+                item.setDesc(desc);
             }
         } while (!answer.equals("2"));
-        return result;
+        return item;
     }
 
     /**
      * Delete the selected task.
+     *
      * @param tracker - object of Tracker
      */
     public void delete(Tracker tracker) {
