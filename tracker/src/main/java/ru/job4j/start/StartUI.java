@@ -14,16 +14,21 @@ public class StartUI {
      */
     private Input input;
     /**
+     * object of Tracker.
+     */
+    private Tracker tracker;
+    /**
      * Main menu array.
      */
     private String[] arrayMenuItems;
 
     /**
      * Constructor.
-     *
-     * @param input object of Input.
+     * @param tracker object of Tracker
+     * @param input object of Input
      */
-    public StartUI(Input input) {
+    public StartUI(Tracker tracker, Input input) {
+        this.tracker = tracker;
         this.input = input;
     }
 
@@ -34,14 +39,13 @@ public class StartUI {
      */
     public static void main(String[] args) {
         Input input = new ConsoleInput();
-        new StartUI(input).init();
+        new StartUI(new Tracker(), input).init();
     }
 
     /**
      * Main menu.
      */
     public void init() {
-        Tracker tracker = new Tracker();
         String answer = "no answer";
         this.arrayMenuItems = new String[]{"Add new Item", "Show all items", "Edit item", "Delete item", "Find item by Id", "Find items by name", "Exit Program"};
         do {
