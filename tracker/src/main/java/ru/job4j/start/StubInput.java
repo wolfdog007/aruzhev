@@ -1,4 +1,4 @@
-package ru.job4j;
+package ru.job4j.start;
 
 import ru.job4j.start.Input;
 

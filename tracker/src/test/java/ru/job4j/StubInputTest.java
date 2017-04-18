@@ -4,6 +4,7 @@ import org.junit.Test;
 import ru.job4j.models.Item;
 import ru.job4j.start.Input;
 import ru.job4j.start.StartUI;
+import ru.job4j.start.StubInput;
 import ru.job4j.start.Tracker;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
