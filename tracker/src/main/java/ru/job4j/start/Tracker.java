@@ -55,6 +55,7 @@ public class Tracker {
         for (int i = 0; i < this.items.length; i++) {
             if (this.items[i] != null && this.items[i].getId().equals(items.getId())) {
                 this.items[i] = items;
+                break;
             }
         }
     }

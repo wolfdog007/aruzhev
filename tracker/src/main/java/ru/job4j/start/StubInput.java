@@ -1,7 +1,5 @@
 package ru.job4j.start;
 
-import ru.job4j.start.Input;
-
 /**
  * Implements stub class with users input.
  *
