@@ -31,8 +31,8 @@ public class Item {
     /**
      * Constructor.
      *
-     * @param name - name
-     * @param desc - description
+     * @param name    - name
+     * @param desc    - description
      * @param created - created date
      */
     public Item(String name, String desc, Long created) {
@@ -43,6 +43,7 @@ public class Item {
 
     /**
      * getter name.
+     *
      * @return name
      */
     public String getName() {
@@ -51,6 +52,7 @@ public class Item {
 
     /**
      * getter desc.
+     *
      * @return desc
      */
     public String getDesc() {
@@ -59,6 +61,7 @@ public class Item {
 
     /**
      * getter created.
+     *
      * @return created
      */
     public long getCreated() {
@@ -67,6 +70,7 @@ public class Item {
 
     /**
      * getter id.
+     *
      * @return id
      */
     public String getId() {
@@ -75,6 +79,7 @@ public class Item {
 
     /**
      * setter name.
+     *
      * @param name is String
      */
     public void setName(String name) {
@@ -83,6 +88,7 @@ public class Item {
 
     /**
      * setter desc.
+     *
      * @param desc is String
      */
     public void setDesc(String desc) {
@@ -91,6 +97,7 @@ public class Item {
 
     /**
      * setter created.
+     *
      * @param created is long
      */
     public void setCreated(long created) {
@@ -99,6 +106,7 @@ public class Item {
 
     /**
      * setter id.
+     *
      * @param id is String
      */
     public void setId(String id) {

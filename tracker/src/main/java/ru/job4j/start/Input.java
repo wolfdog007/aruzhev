@@ -13,5 +13,13 @@ public interface Input {
      * @return answer
      */
     String ask(String question);
+
+    /**
+     * Ask for user and validate range.
+     * @param question - question for users
+     * @param range - the range of answers
+     * @return answer
+     */
+    int ask(String question, int[] range);
 }
 

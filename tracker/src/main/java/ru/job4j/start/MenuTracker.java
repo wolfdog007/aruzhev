@@ -22,7 +22,7 @@ public class MenuTracker {
     /**
      * The user action field.
      */
-    private UserAction[] userAction = new UserAction[6];
+    private UserAction[] userAction = new UserAction[7];
 
     /**
      * Constructor.
@@ -45,6 +45,19 @@ public class MenuTracker {
         this.userAction[3] = new DeleteItem();
         this.userAction[4] = new FindById();
         this.userAction[5] = new FindByName();
+        this.userAction[6] = new ExitByTracker();
+    }
+
+    /**
+     * Creates a range of possible answers.
+     * @return range of possible answers
+     */
+    public int[] getAllUserAction() {
+        int[] allUA = new int[userAction.length];
+        for (int index = 0; index < userAction.length; index++) {
+            allUA[index] = userAction[index].key();
+        }
+        return allUA;
     }
 
     /**
@@ -292,6 +305,7 @@ public class MenuTracker {
                 System.out.println("This name not present");
             }
         }
+
         /**
          * Description of the action.
          *
@@ -299,6 +313,35 @@ public class MenuTracker {
          */
         public String info() {
             return String.format("%s. %s", this.key(), "Find by name the item.");
+        }
+    }
+
+    /**
+     * Exit from Tracker.
+     */
+    private class ExitByTracker implements UserAction {
+        /**
+         * @return unique key tasks
+         */
+        public int key() {
+            return 6;
+        }
+
+        /**
+         * @param input   data input interface
+         * @param tracker base class
+         */
+        public void execute(Input input, Tracker tracker) {
+            System.out.println("Realy exit?");
+        }
+
+        /**
+         * Description of the action.
+         *
+         * @return the key and Description of the action.
+         */
+        public String info() {
+            return String.format("%s. %s", this.key(), "Exit.");
         }
     }
 }

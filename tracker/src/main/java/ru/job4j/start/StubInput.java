@@ -18,6 +18,7 @@ public class StubInput implements Input {
 
     /**
      * Constructor.
+     *
      * @param answers array of answers.
      */
     public StubInput(String[] answers) {
@@ -26,10 +27,23 @@ public class StubInput implements Input {
 
     /**
      * User acnion.
+     *
      * @param question - question for users
      * @return the current action
      */
     public String ask(String question) {
         return answers[position++];
+    }
+
+    /**
+     * Validate question.
+     * @param question - question for users
+     * @param range - the range of answers
+     * @return UnsupportedOperationException
+     */
+    public int ask(String question, int[] range) {
+        int key = Integer.valueOf(this.ask(question));
+        return key;
+       // throw new UnsupportedOperationException("Unsupported operation");
     }
 }

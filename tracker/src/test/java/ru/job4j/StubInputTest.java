@@ -94,6 +94,7 @@ public class StubInputTest {
                 + "3. Delete the item." + System.lineSeparator()
                 + "4. Find by id the item." + System.lineSeparator()
                 + "5. Find by name the item." + System.lineSeparator()
+                + "6. Exit." + System.lineSeparator()
                 + "Id          - %s" + System.lineSeparator() + "Name        - name2"
                 + System.lineSeparator() + "Description - decs2" + System.lineSeparator()
                 + "Created     - %s" + System.lineSeparator()
@@ -119,6 +120,7 @@ public class StubInputTest {
                 + "3. Delete the item." + System.lineSeparator()
                 + "4. Find by id the item." + System.lineSeparator()
                 + "5. Find by name the item." + System.lineSeparator()
+                + "6. Exit." + System.lineSeparator()
                 + "Id          - %s" + System.lineSeparator()
                 + "Name        - name2" + System.lineSeparator()
                 + "Description - decs2" + System.lineSeparator()

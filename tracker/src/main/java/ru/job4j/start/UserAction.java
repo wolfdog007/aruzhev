@@ -9,13 +9,15 @@ package ru.job4j.start;
 public interface UserAction {
     /**
      * The key request from the user.
+     *
      * @return the action to be performed
      */
     int key();
 
     /**
      * The method takes the selected action.
-     * @param input data input interface
+     *
+     * @param input   data input interface
      * @param tracker base class
      */
     void execute(Input input, Tracker tracker);
