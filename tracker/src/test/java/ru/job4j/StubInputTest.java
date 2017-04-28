@@ -3,9 +3,10 @@ package ru.job4j;
 import org.junit.Test;
 import ru.job4j.models.Item;
 import ru.job4j.start.Input;
-import ru.job4j.start.StartUI;
 import ru.job4j.start.StubInput;
 import ru.job4j.start.Tracker;
+import ru.job4j.start.StartUI;
+import ru.job4j.start.MenuOutException;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
@@ -126,5 +127,15 @@ public class StubInputTest {
                 + "Description - decs2" + System.lineSeparator()
                 + "Created     - %s" + System.lineSeparator()
                 + "-----------------------------" + System.lineSeparator(), tracker.getAll()[1].getId(), curStringDate)));
+    }
+
+    /**
+     * Check work MenuOutException.
+     */
+    @Test(expected = MenuOutException.class)
+    public void whenGetErrorMessage() {
+        Tracker tracker = new Tracker();
+        Input input = new StubInput(new String[]{"7"});
+        new StartUI(tracker, input).init();
     }
 }

@@ -51,7 +51,6 @@ public class StartUI {
         menu.fillAction();
         do {
             menu.show();
-            // int key = Integer.valueOf(input.ask("Select: "));
             menu.select(input.ask("select:", menu.getAllUserAction()));
         } while (!"y".equals(this.input.ask("Exit (y):")));
     }

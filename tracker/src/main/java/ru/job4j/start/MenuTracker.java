@@ -332,7 +332,7 @@ public class MenuTracker {
          * @param tracker base class
          */
         public void execute(Input input, Tracker tracker) {
-            System.out.println("Realy exit?");
+            System.out.println("Really exit?");
         }
 
         /**
