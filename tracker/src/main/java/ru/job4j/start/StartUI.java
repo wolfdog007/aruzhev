@@ -8,7 +8,6 @@ package ru.job4j.start;
  * @since 05.04.2017
  */
 public class StartUI {
-    // int[] range = new int[]{0,1,2,3,4,5};
     /**
      * object of Input.
      */
@@ -49,6 +48,23 @@ public class StartUI {
     public void init() {
         MenuTracker menu = new MenuTracker(this.input, this.tracker);
         menu.fillAction();
+        UserAction exitByTracker = new BaseAction("Exit.") {
+            /**
+             * @return unique key tasks
+             */
+            public int key() {
+                return 6;
+            }
+            /**
+             * @param input   data input interface
+             * @param tracker base class
+             */
+            public void execute(Input input, Tracker tracker) {
+                System.out.println("Really exit?");
+            }
+        };
+
+        menu.addAction(exitByTracker);
         do {
             menu.show();
             menu.select(input.ask("select:", menu.getAllUserAction()));

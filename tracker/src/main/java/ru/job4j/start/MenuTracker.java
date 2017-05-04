@@ -23,6 +23,10 @@ public class MenuTracker {
      * The user action field.
      */
     private UserAction[] userAction = new UserAction[7];
+    /**
+     * the position of the object in menu.
+     */
+    private int position = 0;
 
     /**
      * Constructor.
@@ -39,17 +43,26 @@ public class MenuTracker {
      * The list of actions.
      */
     public void fillAction() {
-        this.userAction[0] = new AddItem();
-        this.userAction[1] = new ShowItems();
-        this.userAction[2] = new EditItem();
-        this.userAction[3] = new DeleteItem();
-        this.userAction[4] = new FindById();
-        this.userAction[5] = new FindByName();
-        this.userAction[6] = new ExitByTracker();
+        this.userAction[position++] = new AddItem("Add the new item.");
+        this.userAction[position++] = new ShowItems("Show all items.");
+        this.userAction[position++] = new EditItem("Edit the item.");
+        this.userAction[position++] = new DeleteItem("Delete the item.");
+        this.userAction[position++] = new FindById("Find by id the item.");
+        this.userAction[position++] = new FindByName("Find by name the item.");
+    }
+
+    /**
+     * add new menu item.
+     *
+     * @param action menu item
+     */
+    public void addAction(UserAction action) {
+        this.userAction[position++] = action;
     }
 
     /**
      * Creates a range of possible answers.
+     *
      * @return range of possible answers
      */
     public int[] getAllUserAction() {
@@ -98,7 +111,16 @@ public class MenuTracker {
     /**
      * Add the new item.
      */
-    private class AddItem implements UserAction {
+    private class AddItem extends BaseAction {
+        /**
+         * Constructor.
+         *
+         * @param name - BaseAction name
+         */
+        AddItem(String name) {
+            super(name);
+        }
+
         /**
          * @return unique key tasks
          */
@@ -118,21 +140,21 @@ public class MenuTracker {
             long created = System.currentTimeMillis();
             tracker.add(new Item(name, desc, created));
         }
-
-        /**
-         * Description of the action.
-         *
-         * @return the key and Description of the action.
-         */
-        public String info() {
-            return String.format("%s. %s", this.key(), "Add the new item.");
-        }
     }
 
     /**
      * Show all items.
      */
-    private static class ShowItems implements UserAction {
+    private static class ShowItems extends BaseAction {
+        /**
+         * Constructor.
+         *
+         * @param name - BaseAction name
+         */
+        ShowItems(String name) {
+            super(name);
+        }
+
         /**
          * @return unique key tasks
          */
@@ -158,21 +180,21 @@ public class MenuTracker {
                 System.out.println("The task list is empty");
             }
         }
-
-        /**
-         * Description of the action.
-         *
-         * @return the key and Description of the action.
-         */
-        public String info() {
-            return String.format("%s. %s", this.key(), "Show all items.");
-        }
     }
 
     /**
      * Edit the item.
      */
-    class EditItem implements UserAction {
+    class EditItem extends BaseAction {
+        /**
+         * Constructor.
+         *
+         * @param name - BaseAction name
+         */
+        EditItem(String name) {
+            super(name);
+        }
+
         /**
          * @return unique key tasks
          */
@@ -195,21 +217,21 @@ public class MenuTracker {
             item.setId(id);
             tracker.update(item);
         }
-
-        /**
-         * Description of the action.
-         *
-         * @return the key and Description of the action.
-         */
-        public String info() {
-            return String.format("%s. %s", this.key(), "Edit the item.");
-        }
     }
 
     /**
      * Delete the item.
      */
-    private class DeleteItem implements UserAction {
+    private class DeleteItem extends BaseAction {
+        /**
+         * Constructor.
+         *
+         * @param name - BaseAction name
+         */
+        DeleteItem(String name) {
+            super(name);
+        }
+
         /**
          * @return unique key tasks
          */
@@ -231,21 +253,21 @@ public class MenuTracker {
                 System.out.println("This id not present");
             }
         }
-
-        /**
-         * Description of the action.
-         *
-         * @return the key and Description of the action.
-         */
-        public String info() {
-            return String.format("%s. %s", this.key(), "Delete the item.");
-        }
     }
 
     /**
      * Find by id the item.
      */
-    private class FindById implements UserAction {
+    private class FindById extends BaseAction {
+        /**
+         * Constructor.
+         *
+         * @param name - BaseAction name
+         */
+        FindById(String name) {
+            super(name);
+        }
+
         /**
          * @return unique key tasks
          */
@@ -268,21 +290,21 @@ public class MenuTracker {
                 System.out.println("This id not present");
             }
         }
-
-        /**
-         * Description of the action.
-         *
-         * @return the key and Description of the action.
-         */
-        public String info() {
-            return String.format("%s. %s", this.key(), "Find by id the item.");
-        }
     }
 
     /**
      * Find by name the item.
      */
-    private class FindByName implements UserAction {
+    private class FindByName extends BaseAction {
+        /**
+         * Constructor.
+         *
+         * @param name - BaseAction name
+         */
+        FindByName(String name) {
+            super(name);
+        }
+
         /**
          * @return unique key tasks
          */
@@ -304,44 +326,6 @@ public class MenuTracker {
             } else {
                 System.out.println("This name not present");
             }
-        }
-
-        /**
-         * Description of the action.
-         *
-         * @return the key and Description of the action.
-         */
-        public String info() {
-            return String.format("%s. %s", this.key(), "Find by name the item.");
-        }
-    }
-
-    /**
-     * Exit from Tracker.
-     */
-    private class ExitByTracker implements UserAction {
-        /**
-         * @return unique key tasks
-         */
-        public int key() {
-            return 6;
-        }
-
-        /**
-         * @param input   data input interface
-         * @param tracker base class
-         */
-        public void execute(Input input, Tracker tracker) {
-            System.out.println("Really exit?");
-        }
-
-        /**
-         * Description of the action.
-         *
-         * @return the key and Description of the action.
-         */
-        public String info() {
-            return String.format("%s. %s", this.key(), "Exit.");
         }
     }
 }
