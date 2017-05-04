@@ -118,14 +118,7 @@ public class MenuTracker {
          * @param name - BaseAction name
          */
         AddItem(String name) {
-            super(name);
-        }
-
-        /**
-         * @return unique key tasks
-         */
-        public int key() {
-            return 0;
+            super(name, 0);
         }
 
         /**
@@ -152,14 +145,7 @@ public class MenuTracker {
          * @param name - BaseAction name
          */
         ShowItems(String name) {
-            super(name);
-        }
-
-        /**
-         * @return unique key tasks
-         */
-        public int key() {
-            return 1;
+            super(name, 1);
         }
 
         /**
@@ -192,14 +178,7 @@ public class MenuTracker {
          * @param name - BaseAction name
          */
         EditItem(String name) {
-            super(name);
-        }
-
-        /**
-         * @return unique key tasks
-         */
-        public int key() {
-            return 2;
+            super(name, 2);
         }
 
         /**
@@ -229,14 +208,7 @@ public class MenuTracker {
          * @param name - BaseAction name
          */
         DeleteItem(String name) {
-            super(name);
-        }
-
-        /**
-         * @return unique key tasks
-         */
-        public int key() {
-            return 3;
+            super(name, 3);
         }
 
         /**
@@ -265,14 +237,7 @@ public class MenuTracker {
          * @param name - BaseAction name
          */
         FindById(String name) {
-            super(name);
-        }
-
-        /**
-         * @return unique key tasks
-         */
-        public int key() {
-            return 4;
+            super(name, 4);
         }
 
         /**
@@ -302,14 +267,7 @@ public class MenuTracker {
          * @param name - BaseAction name
          */
         FindByName(String name) {
-            super(name);
-        }
-
-        /**
-         * @return unique key tasks
-         */
-        public int key() {
-            return 5;
+            super(name, 5);
         }
 
         /**

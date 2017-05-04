@@ -8,14 +8,21 @@ public abstract class BaseAction implements UserAction {
      * BaseAction name.
      */
     private String name;
+    /**
+     * key operation.
+     */
+    private int key;
 
     /**
+     * /**
      * Constructor.
      *
      * @param name - BaseAction name
+     * @param key - key operation
      */
-    public BaseAction(String name) {
+    public BaseAction(String name, int key) {
         this.name = name;
+        this.key = key;
     }
 
     /**
@@ -23,7 +30,9 @@ public abstract class BaseAction implements UserAction {
      *
      * @return the action to be performed
      */
-    public abstract int key();
+    public int key() {
+        return this.key;
+    }
 
     /**
      * The method takes the selected action.

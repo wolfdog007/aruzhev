@@ -48,13 +48,14 @@ public class StartUI {
     public void init() {
         MenuTracker menu = new MenuTracker(this.input, this.tracker);
         menu.fillAction();
-        UserAction exitByTracker = new BaseAction("Exit.") {
+        UserAction exitByTracker = new BaseAction("Exit.", 6) {
             /**
              * @return unique key tasks
              */
             public int key() {
                 return 6;
             }
+
             /**
              * @param input   data input interface
              * @param tracker base class
