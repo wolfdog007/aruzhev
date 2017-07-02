@@ -1,0 +1,384 @@
+move - 0
+improved attack
+elven warrior(100.0) Attacks with a sword undead zombies(100.0) damage - 22.5
+improved attack
+undead zombies(100.0) attacks with spear elven warrior(100.0) damage - 27.0
+move - 2
+improved attack
+undead hunter(100.0) attacks elven Archer(100.0) damage - 3.0
+improved attack
+elven warrior(100.0) Attacks with a sword undead necromancer(100.0) damage - 22.5
+move - 4
+improved attack
+undead zombies(77.5) attacks with spear elven Archer(97.0) damage - 27.0
+normal attack
+undead zombies(77.5) attacks with spear elven warrior(100.0) damage - 18.0
+move - 6
+normal attack
+undead hunter(100.0) attacks elven warrior(100.0) damage - 2.0
+normal attack
+undead zombies(100.0) attacks with spear elven warrior(100.0) damage - 18.0
+move - 8
+normal attack
+undead necromancer(77.5) magic attack elven warrior(82.0) damage - 5.0
+normal attack
+undead hunter(100.0) attacks elven Archer(70.0) damage - 2.0
+move - 10
+normal attack
+undead zombies(100.0) attacks with spear elven warrior(77.0) damage - 18.0
+normal attack
+undead zombies(100.0) attacks with spear elven Archer(100.0) damage - 18.0
+move - 12
+improved attack
+elven Archer(82.0) shoots with bow undead hunter(100.0) damage - 10.5
+normal attack
+undead hunter(100.0) attacks elven warrior(98.0) damage - 2.0
+move - 14
+improved attack
+elven Mage(100.0) cast improvement elven Archer(82.0)
+improved attack
+elven Archer(82.0) shoots with bow undead hunter(100.0) damage - 10.5
+move - 16
+normal attack
+undead zombies(100.0) attacks with spear elven warrior(59.0) damage - 18.0
+normal attack
+elven warrior(96.0) Attacks with a sword undead hunter(100.0) damage - 15.0
+move - 18
+normal attack
+undead necromancer(77.5) magic attack elven Archer(82.0) damage - 5.0
+normal attack
+elven Archer(100.0) Attacks the enemy undead hunter(89.5) damage - 3.0
+move - 20
+normal attack
+elven Mage(100.0) magic attack undead zombies(100.0) damage - 10.0
+normal attack
+undead hunter(86.5) shoots with bow elven warrior(73.0) damage - 4.0
+move - 22
+normal attack
+undead zombies(77.5) attacks with spear elven warrior(82.0) damage - 18.0
+normal attack
+elven Archer(100.0) Attacks the enemy undead hunter(89.5) damage - 3.0
+move - 24
+normal attack
+elven Archer(77.0) shoots with bow undead zombies(77.5) damage - 7.0
+normal attack
+elven Archer(68.0) shoots with bow undead hunter(85.0) damage - 7.0
+move - 26
+normal attack
+elven warrior(96.0) Attacks with a sword undead hunter(86.5) damage - 15.0
+normal attack
+elven warrior(41.0) Attacks with a sword undead zombies(100.0) damage - 15.0
+move - 28
+normal attack
+elven Mage(100.0) cast improvement elven warrior(64.0)
+improved attack
+elven warrior(64.0) Attacks with a sword undead hunter(86.5) damage - 22.5
+move - 30
+normal attack
+elven warrior(41.0) Attacks with a sword undead hunter(64.0) damage - 15.0
+normal attack
+elven warrior(64.0) Attacks with a sword undead hunter(71.5) damage - 15.0
+move - 32
+normal attack
+elven Archer(100.0) Attacks the enemy undead zombies(90.0) damage - 3.0
+normal attack
+undead zombies(85.0) attacks with spear elven Archer(100.0) damage - 18.0
+move - 34
+normal attack
+elven warrior(96.0) Attacks with a sword undead hunter(78.0) damage - 15.0
+normal attack
+elven Archer(77.0) Attacks the enemy undead zombies(70.5) damage - 3.0
+move - 36
+normal attack
+elven Mage(100.0) magic attack undead hunter(49.0) damage - 10.0
+normal attack
+undead necromancer(77.5) magic attack elven warrior(96.0) damage - 5.0
+move - 38
+normal attack
+undead zombies(85.0) attacks with spear elven warrior(64.0) damage - 18.0
+normal attack
+elven warrior(46.0) Attacks with a sword undead zombies(67.5) damage - 15.0
+move - 40
+normal attack
+undead hunter(56.5) shoots with bow elven warrior(69.0) damage - 4.0
+normal attack
+elven warrior(65.0) Attacks with a sword undead hunter(63.0) damage - 15.0
+move - 42
+normal attack
+elven warrior(41.0) Attacks with a sword undead hunter(39.0) damage - 15.0
+normal attack
+undead hunter(56.5) attacks elven Mage(100.0) damage - 2.0
+move - 44
+normal attack
+elven warrior(41.0) Attacks with a sword undead hunter(56.5) damage - 15.0
+normal attack
+elven Archer(82.0) shoots with bow undead hunter(24.0) damage - 7.0
+move - 46
+normal attack
+undead hunter(48.0) attacks elven Archer(68.0) damage - 2.0
+normal attack
+elven Mage(98.0) cast improvement elven Mage(98.0)
+move - 48
+improved attack
+elven Mage(98.0) magic attack undead zombies(52.5) damage - 15.0
+normal attack
+undead necromancer(77.5) magic attack elven warrior(41.0) damage - 5.0
+move - 50
+normal attack
+elven Mage(98.0) magic attack undead hunter(41.5) damage - 10.0
+normal attack
+elven warrior(36.0) Attacks with a sword undead hunter(48.0) damage - 15.0
+move - 52
+normal attack
+elven Mage(98.0) magic attack undead zombies(87.0) damage - 10.0
+normal attack
+undead zombies(37.5) attacks with spear elven warrior(46.0) damage - 18.0
+move - 54
+normal attack
+elven Mage(98.0) magic attack undead zombies(77.0) damage - 10.0
+normal attack
+elven warrior(28.0) Attacks with a sword undead hunter(31.5) damage - 15.0
+move - 56
+normal attack
+elven warrior(91.0) Attacks with a sword undead hunter(33.0) damage - 15.0
+normal attack
+undead zombies(37.5) attacks with spear elven warrior(91.0) damage - 18.0
+move - 58
+normal attack
+elven Archer(82.0) shoots with bow undead zombies(85.0) damage - 7.0
+normal attack
+elven Mage(98.0) cast improvement elven warrior(28.0)
+move - 60
+improved attack
+elven warrior(28.0) Attacks with a sword undead zombies(37.5) damage - 22.5
+normal attack
+elven Archer(77.0) Attacks the enemy undead hunter(18.0) damage - 3.0
+move - 62
+normal attack
+undead hunter(15.0) attacks elven Archer(77.0) damage - 2.0
+normal attack
+elven warrior(36.0) Attacks with a sword undead hunter(17.0) damage - 15.0
+move - 64
+normal attack
+undead zombies(67.0) attacks with spear elven warrior(73.0) damage - 18.0
+normal attack
+elven warrior(55.0) Attacks with a sword undead zombies(100.0) damage - 15.0
+move - 66
+normal attack
+undead zombies(67.0) attacks with spear elven Mage(98.0) damage - 18.0
+normal attack
+undead zombies(67.0) attacks with spear elven Archer(82.0) damage - 18.0
+move - 68
+normal attack
+undead zombies(15.0) attacks with spear elven Archer(66.0) damage - 18.0
+normal attack
+undead necromancer(77.5) magic attack elven warrior(55.0) damage - 5.0
+move - 70
+normal attack
+elven warrior(28.0) Attacks with a sword undead hunter(2.0) damage - 15.0
+undead hunter - is dead
+normal attack
+undead necromancer(77.5) magic attack elven Archer(64.0) damage - 5.0
+move - 72
+normal attack
+elven warrior(50.0) Attacks with a sword undead hunter(16.5) damage - 15.0
+normal attack
+elven Archer(48.0) shoots with bow undead hunter(15.0) damage - 7.0
+move - 74
+normal attack
+elven warrior(36.0) Attacks with a sword undead zombies(67.0) damage - 15.0
+normal attack
+elven warrior(50.0) Attacks with a sword undead hunter(8.0) damage - 15.0
+undead hunter - is dead
+move - 76
+normal attack
+elven Archer(75.0) Attacks the enemy undead zombies(15.0) damage - 3.0
+normal attack
+elven warrior(65.0) Attacks with a sword undead hunter(1.5) damage - 15.0
+undead hunter - is dead
+move - 78
+normal attack
+undead zombies(52.0) attacks with spear elven warrior(65.0) damage - 18.0
+normal attack
+elven Archer(75.0) shoots with bow undead zombies(52.0) damage - 7.0
+move - 80
+normal attack
+undead zombies(78.0) attacks with spear elven warrior(47.0) damage - 18.0
+normal attack
+elven Mage(80.0) cast improvement elven Archer(75.0)
+move - 82
+improved attack
+elven Archer(75.0) shoots with bow undead zombies(45.0) damage - 10.5
+normal attack
+undead zombies(34.5) attacks with spear elven Archer(59.0) damage - 18.0
+move - 84
+normal attack
+undead zombies(12.0) attacks with spear elven Archer(48.0) damage - 18.0
+normal attack
+undead zombies(12.0) attacks with spear elven warrior(50.0) damage - 18.0
+move - 86
+normal attack
+undead zombies(78.0) attacks with spear elven warrior(36.0) damage - 18.0
+normal attack
+elven warrior(18.0) Attacks with a sword undead zombies(34.5) damage - 15.0
+move - 88
+normal attack
+elven Archer(41.0) Attacks the enemy undead zombies(19.5) damage - 3.0
+normal attack
+elven warrior(32.0) Attacks with a sword undead necromancer(77.5) damage - 15.0
+move - 90
+normal attack
+elven Mage(80.0) magic attack undead zombies(16.5) damage - 10.0
+normal attack
+undead zombies(78.0) attacks with spear elven warrior(32.0) damage - 18.0
+move - 92
+normal attack
+undead zombies(78.0) attacks with spear elven warrior(29.0) damage - 18.0
+normal attack
+undead zombies(78.0) attacks with spear elven Archer(30.0) damage - 18.0
+move - 94
+normal attack
+undead zombies(12.0) attacks with spear elven Archer(41.0) damage - 18.0
+normal attack
+elven warrior(14.0) Attacks with a sword undead zombies(85.0) damage - 15.0
+move - 96
+normal attack
+elven warrior(28.0) Attacks with a sword undead zombies(70.0) damage - 15.0
+normal attack
+elven warrior(14.0) Attacks with a sword undead zombies(6.5) damage - 15.0
+undead zombies - is dead
+move - 98
+normal attack
+undead zombies(12.0) attacks with spear elven warrior(14.0) damage - 18.0
+elven warrior - is dead
+normal attack
+undead zombies(78.0) attacks with spear elven Archer(12.0) damage - 18.0
+elven Archer - is dead
+move - 100
+normal attack
+elven Archer(75.0) Attacks the enemy undead necromancer(62.5) damage - 3.0
+normal attack
+undead zombies(78.0) attacks with spear elven warrior(11.0) damage - 18.0
+elven warrior - is dead
+move - 102
+normal attack
+undead zombies(78.0) attacks with spear elven Archer(75.0) damage - 18.0
+normal attack
+undead necromancer(59.5) magic attack elven warrior(18.0) damage - 5.0
+move - 104
+normal attack
+elven Mage(80.0) cast improvement elven Mage(80.0)
+normal attack
+undead necromancer(59.5) magic attack elven Mage(80.0) damage - 5.0
+move - 106
+improved attack
+elven Mage(75.0) magic attack undead zombies(12.0) damage - 15.0
+undead zombies - is dead
+normal attack
+undead zombies(55.0) attacks with spear elven Archer(23.0) damage - 18.0
+move - 108
+normal attack
+undead necromancer curse!
+elven warrior cursed attack -50
+normal attack
+elven Archer(57.0) shoots with bow undead zombies(78.0) damage - 7.0
+move - 110
+normal attack
+elven Mage(75.0) cast improvement elven Archer(5.0)
+normal attack
+undead necromancer(59.5) magic attack elven Mage(75.0) damage - 5.0
+move - 112
+improved attack
+elven Archer(5.0) shoots with bow undead zombies(71.0) damage - 10.5
+normal attack
+undead zombies(55.0) attacks with spear elven warrior(28.0) damage - 18.0
+move - 114
+normal attack
+elven warrior(13.0) Attacks with a sword undead necromancer(59.5) damage - 15.0
+normal attack
+elven warrior(10.0) Attacks with a sword undead necromancer(44.5) damage - 7.5
+elven warrior curse is broken
+move - 116
+normal attack
+elven warrior(13.0) Attacks with a sword undead necromancer(37.0) damage - 15.0
+normal attack
+undead zombies(60.5) attacks with spear elven Mage(70.0) damage - 18.0
+move - 118
+normal attack
+elven Mage(52.0) cast improvement elven Archer(5.0)
+normal attack
+undead necromancer(22.0) magic attack elven warrior(10.0) damage - 5.0
+move - 120
+improved attack
+elven Archer(5.0) Attacks the enemy undead zombies(55.0) damage - 4.5
+normal attack
+undead zombies(60.5) attacks with spear elven Archer(57.0) damage - 18.0
+move - 122
+normal attack
+undead necromancer curse!
+elven warrior cursed attack -50
+normal attack
+undead zombies(50.5) attacks with spear elven Archer(39.0) damage - 18.0
+move - 124
+normal attack
+undead necromancer curse!
+elven warrior curse is broken
+normal attack
+undead necromancer curse!
+elven warrior cursed attack -50
+move - 126
+normal attack
+elven Archer(21.0) Attacks the enemy undead zombies(60.5) damage - 3.0
+normal attack
+undead zombies(57.5) attacks with spear elven Mage(52.0) damage - 18.0
+move - 128
+normal attack
+elven Archer(5.0) shoots with bow undead zombies(50.5) damage - 7.0
+normal attack
+undead zombies(57.5) attacks with spear elven warrior(13.0) damage - 18.0
+elven warrior - is dead
+move - 130
+normal attack
+elven Mage(34.0) magic attack undead necromancer(22.0) damage - 10.0
+normal attack
+undead zombies(43.5) attacks with spear elven Archer(5.0) damage - 18.0
+elven Archer - is dead
+move - 132
+normal attack
+undead zombies(43.5) attacks with spear elven Mage(34.0) damage - 18.0
+normal attack
+elven warrior(5.0) Attacks with a sword undead necromancer(12.0) damage - 7.5
+elven warrior curse is broken
+move - 134
+normal attack
+elven Mage(16.0) magic attack undead necromancer(4.5) damage - 10.0
+undead necromancer - is dead
+normal attack
+undead zombies(43.5) attacks with spear elven Mage(16.0) damage - 18.0
+elven Mage - is dead
+move - 136
+normal attack
+undead zombies(43.5) attacks with spear elven Archer(21.0) damage - 18.0
+normal attack
+elven warrior(5.0) Attacks with a sword undead zombies(57.5) damage - 15.0
+move - 138
+normal attack
+elven warrior(5.0) Attacks with a sword undead zombies(42.5) damage - 15.0
+normal attack
+undead zombies(27.5) attacks with spear elven warrior(5.0) damage - 18.0
+elven warrior - is dead
+move - 140
+normal attack
+elven Archer(3.0) shoots with bow undead zombies(27.5) damage - 7.0
+normal attack
+elven Archer(3.0) Attacks the enemy undead zombies(43.5) damage - 3.0
+move - 142
+normal attack
+elven Archer(3.0) shoots with bow undead zombies(40.5) damage - 7.0
+normal attack
+elven Archer(3.0) Attacks the enemy undead zombies(20.5) damage - 3.0
+move - 144
+normal attack
+undead zombies(33.5) attacks with spear elven Archer(3.0) damage - 18.0
+elven Archer - is dead
+normal attack

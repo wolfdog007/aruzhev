@@ -1,0 +1,4 @@
+/**
+ * 02.07.2017.
+ */
+package ru.job4j.battlegame.utils;

@@ -1,0 +1,536 @@
+nullmove - 0
+light squad - 8 dark squad - 8
+improved attack
+orc goblin(100.0) Attacks with a club human crossbow(100.0) damage - 30.0
+move - 1
+light squad - 8 dark squad - 8
+improved attack
+orc goblin(100.0) Attacks with a club human warrior(100.0) damage - 30.0
+move - 2
+light squad - 8 dark squad - 8
+improved attack
+human crossbow(100.0) attack with crossbow orc archer(100.0) damage - 7.5
+move - 3
+light squad - 8 dark squad - 8
+improved attack
+orc archer(100.0) Attacks with a dagger human crossbow(100.0) damage - 3.0
+move - 4
+light squad - 8 dark squad - 8
+improved attack
+human crossbow(100.0) attack with crossbow orc archer(100.0) damage - 7.5
+move - 5
+light squad - 8 dark squad - 8
+improved attack
+human warrior(100.0) Attacks with a sword orc archer(92.5) damage - 27.0
+move - 6
+light squad - 8 dark squad - 8
+normal attack
+human mage(100.0) cast improvement human warrior(100.0)
+move - 7
+light squad - 8 dark squad - 8
+improved attack
+orc goblin(100.0) Attacks with a club human warrior(100.0) damage - 30.0
+move - 8
+light squad - 8 dark squad - 8
+improved attack
+human warrior(100.0) Attacks with a sword orc goblin(100.0) damage - 27.0
+move - 9
+light squad - 8 dark squad - 8
+normal attack
+orc goblin(73.0) Attacks with a club human crossbow(97.0) damage - 20.0
+move - 10
+light squad - 8 dark squad - 8
+normal attack
+human warrior(70.0) Attacks with a sword orc goblin(100.0) damage - 18.0
+move - 11
+light squad - 8 dark squad - 8
+normal attack
+orc goblin(73.0) Attacks with a club human warrior(70.0) damage - 20.0
+move - 12
+light squad - 8 dark squad - 8
+normal attack
+orc shaman(100.0) cast improvement orc shaman(100.0)
+move - 13
+light squad - 8 dark squad - 8
+improved attack
+move - 14
+light squad - 8 dark squad - 8
+normal attack
+orc archer(92.5) Attacks with a dagger human warrior(100.0) damage - 2.0
+move - 15
+light squad - 8 dark squad - 8
+normal attack
+orc archer(100.0) shoots with bow human crossbow(77.0) damage - 3.0
+move - 16
+light squad - 8 dark squad - 8
+normal attack
+orc goblin(73.0) Attacks with a club human crossbow(70.0) damage - 20.0
+move - 17
+light squad - 8 dark squad - 8
+normal attack
+orc archer(65.5) shoots with bow human warrior(70.0) damage - 3.0
+move - 18
+light squad - 8 dark squad - 8
+normal attack
+human warrior(50.0) Attacks with a sword orc archer(92.5) damage - 18.0
+move - 19
+light squad - 8 dark squad - 8
+normal attack
+orc archer(74.5) shoots with bow human crossbow(50.0) damage - 3.0
+move - 20
+light squad - 8 dark squad - 8
+normal attack
+orc goblin(82.0) Attacks with a club human crossbow(74.0) damage - 20.0
+move - 21
+light squad - 8 dark squad - 8
+normal attack
+orc goblin(100.0) Attacks with a club human crossbow(100.0) damage - 20.0
+move - 22
+light squad - 8 dark squad - 8
+normal attack
+orc goblin(73.0) Attacks with a club human warrior(67.0) damage - 20.0
+move - 23
+light squad - 8 dark squad - 8
+normal attack
+orc goblin(73.0) Attacks with a club human crossbow(54.0) damage - 20.0
+move - 24
+light squad - 8 dark squad - 8
+normal attack
+human warrior(100.0) Attacks with a sword orc goblin(100.0) damage - 18.0
+move - 25
+light squad - 8 dark squad - 8
+normal attack
+orc goblin(82.0) Attacks with a club human warrior(47.0) damage - 20.0
+move - 26
+light squad - 8 dark squad - 8
+normal attack
+orc goblin(100.0) Attacks with a club human crossbow(34.0) damage - 20.0
+move - 27
+light squad - 8 dark squad - 8
+normal attack
+human crossbow(47.0) attack with crossbow orc goblin(100.0) damage - 5.0
+move - 28
+light squad - 8 dark squad - 8
+normal attack
+orc goblin(82.0) Attacks with a club human crossbow(47.0) damage - 20.0
+move - 29
+light squad - 8 dark squad - 8
+normal attack
+orc archer(74.5) shoots with bow human crossbow(80.0) damage - 3.0
+move - 30
+light squad - 8 dark squad - 8
+normal attack
+human crossbow(14.0) attack with crossbow orc archer(74.5) damage - 5.0
+move - 31
+light squad - 8 dark squad - 8
+normal attack
+orc archer(69.5) Attacks with a dagger human warrior(50.0) damage - 2.0
+move - 32
+light squad - 8 dark squad - 8
+normal attack
+orc shaman(100.0) cast improvement orc shaman(100.0)
+move - 33
+light squad - 8 dark squad - 8
+normal attack
+human crossbow(14.0) attacks orc archer(65.5) damage - 3.0
+move - 34
+light squad - 8 dark squad - 8
+improved attack
+orc shaman(100.0) cast improvement orc goblin(82.0)
+move - 35
+light squad - 8 dark squad - 8
+normal attack
+human crossbow(27.0) attack with crossbow orc archer(62.5) damage - 5.0
+move - 36
+light squad - 8 dark squad - 8
+improved attack
+orc goblin(82.0) Attacks with a club human crossbow(14.0) damage - 30.0
+human crossbow - is dead
+move - 37
+light squad - 7 dark squad - 8
+normal attack
+orc shaman(100.0) cast improvement orc goblin(73.0)
+move - 38
+light squad - 7 dark squad - 8
+improved attack
+orc goblin(73.0) Attacks with a club human mage(100.0) damage - 30.0
+move - 39
+light squad - 7 dark squad - 8
+normal attack
+move - 40
+light squad - 7 dark squad - 8
+normal attack
+human mage(70.0) attacks with magic orc goblin(82.0) damage - 4.0
+move - 41
+light squad - 7 dark squad - 8
+normal attack
+human mage(70.0) cast improvement human crossbow(77.0)
+move - 42
+light squad - 7 dark squad - 8
+improved attack
+human crossbow(77.0) attack with crossbow orc archer(100.0) damage - 7.5
+move - 43
+light squad - 7 dark squad - 8
+normal attack
+human warrior(27.0) Attacks with a sword orc goblin(73.0) damage - 18.0
+move - 44
+light squad - 7 dark squad - 8
+normal attack
+human warrior(27.0) Attacks with a sword orc goblin(82.0) damage - 18.0
+move - 45
+light squad - 7 dark squad - 8
+normal attack
+human mage(70.0) attacks with magic orc goblin(78.0) damage - 4.0
+move - 46
+light squad - 7 dark squad - 8
+normal attack
+human mage(70.0) cast improvement human crossbow(27.0)
+move - 47
+light squad - 7 dark squad - 8
+improved attack
+human crossbow(27.0) attacks orc archer(92.5) damage - 4.5
+move - 48
+light squad - 7 dark squad - 8
+normal attack
+human crossbow(77.0) attack with crossbow orc goblin(74.0) damage - 5.0
+move - 49
+light squad - 7 dark squad - 8
+normal attack
+human crossbow(77.0) attack with crossbow orc archer(69.5) damage - 5.0
+move - 50
+light squad - 7 dark squad - 8
+normal attack
+orc archer(57.5) Attacks with a dagger human mage(70.0) damage - 2.0
+move - 51
+light squad - 7 dark squad - 8
+normal attack
+human crossbow(27.0) attack with crossbow orc archer(64.5) damage - 5.0
+move - 52
+light squad - 7 dark squad - 8
+normal attack
+orc archer(88.0) shoots with bow human mage(68.0) damage - 3.0
+move - 53
+light squad - 7 dark squad - 8
+normal attack
+orc goblin(95.0) Attacks with a club human warrior(100.0) damage - 20.0
+move - 54
+light squad - 7 dark squad - 8
+normal attack
+human warrior(98.0) Attacks with a sword orc shaman(100.0) damage - 18.0
+move - 55
+light squad - 7 dark squad - 8
+normal attack
+human crossbow(27.0) attack with crossbow orc archer(57.5) damage - 5.0
+move - 56
+light squad - 7 dark squad - 8
+normal attack
+orc goblin(55.0) Attacks with a club human warrior(98.0) damage - 20.0
+move - 57
+light squad - 7 dark squad - 8
+normal attack
+human mage(65.0) cast improvement human warrior(80.0)
+move - 58
+light squad - 7 dark squad - 8
+improved attack
+human warrior(80.0) Attacks with a sword orc goblin(69.0) damage - 27.0
+move - 59
+light squad - 7 dark squad - 8
+normal attack
+orc goblin(95.0) Attacks with a club human crossbow(27.0) damage - 20.0
+move - 60
+light squad - 7 dark squad - 8
+normal attack
+orc archer(88.0) Attacks with a dagger human mage(65.0) damage - 2.0
+move - 61
+light squad - 7 dark squad - 8
+normal attack
+orc archer(52.5) Attacks with a dagger human crossbow(77.0) damage - 2.0
+move - 62
+light squad - 7 dark squad - 8
+normal attack
+orc goblin(95.0) Attacks with a club human warrior(48.0) damage - 20.0
+move - 63
+light squad - 7 dark squad - 8
+normal attack
+human warrior(78.0) Attacks with a sword orc archer(59.5) damage - 18.0
+move - 64
+light squad - 7 dark squad - 8
+normal attack
+orc goblin(64.0) Attacks with a club human mage(63.0) damage - 20.0
+move - 65
+light squad - 7 dark squad - 8
+normal attack
+human mage(43.0) attacks with magic orc goblin(64.0) damage - 4.0
+move - 66
+light squad - 7 dark squad - 8
+normal attack
+orc archer(88.0) Attacks with a dagger human warrior(28.0) damage - 2.0
+move - 67
+light squad - 7 dark squad - 8
+normal attack
+human warrior(78.0) Attacks with a sword orc archer(41.5) damage - 18.0
+move - 68
+light squad - 7 dark squad - 8
+normal attack
+orc archer(52.5) shoots with bow human mage(43.0) damage - 3.0
+move - 69
+light squad - 7 dark squad - 8
+normal attack
+orc goblin(60.0) Attacks with a club human warrior(26.0) damage - 20.0
+move - 70
+light squad - 7 dark squad - 8
+normal attack
+human warrior(6.0) Attacks with a sword orc archer(88.0) damage - 18.0
+move - 71
+light squad - 7 dark squad - 8
+normal attack
+human warrior(80.0) Attacks with a sword orc goblin(55.0) damage - 18.0
+move - 72
+light squad - 7 dark squad - 8
+normal attack
+human warrior(78.0) Attacks with a sword orc goblin(37.0) damage - 18.0
+move - 73
+light squad - 7 dark squad - 8
+normal attack
+human crossbow(7.0) attacks orc archer(70.0) damage - 3.0
+move - 74
+light squad - 7 dark squad - 8
+normal attack
+orc archer(23.5) Attacks with a dagger human warrior(78.0) damage - 2.0
+move - 75
+light squad - 7 dark squad - 8
+normal attack
+orc archer(23.5) Attacks with a dagger human warrior(76.0) damage - 2.0
+move - 76
+light squad - 7 dark squad - 8
+normal attack
+orc goblin(19.0) Attacks with a club human mage(40.0) damage - 20.0
+move - 77
+light squad - 7 dark squad - 8
+normal attack
+orc goblin(95.0) Attacks with a club human warrior(80.0) damage - 20.0
+move - 78
+light squad - 7 dark squad - 8
+normal attack
+orc goblin(95.0) Attacks with a club human warrior(74.0) damage - 20.0
+move - 79
+light squad - 7 dark squad - 8
+normal attack
+human crossbow(7.0) attack with crossbow orc goblin(42.0) damage - 5.0
+move - 80
+light squad - 7 dark squad - 8
+normal attack
+human crossbow(7.0) attack with crossbow orc archer(23.5) damage - 5.0
+move - 81
+light squad - 7 dark squad - 8
+normal attack
+human warrior(54.0) Attacks with a sword orc archer(67.0) damage - 18.0
+move - 82
+light squad - 7 dark squad - 8
+normal attack
+orc goblin(60.0) Attacks with a club human crossbow(7.0) damage - 20.0
+human crossbow - is dead
+move - 83
+light squad - 6 dark squad - 8
+normal attack
+human warrior(27.0) Attacks with a sword orc shaman(82.0) damage - 18.0
+move - 84
+light squad - 6 dark squad - 8
+normal attack
+orc goblin(60.0) Attacks with a club human mage(20.0) damage - 20.0
+human mage - is dead
+move - 85
+light squad - 5 dark squad - 8
+normal attack
+orc archer(52.5) Attacks with a dagger human warrior(54.0) damage - 2.0
+move - 86
+light squad - 5 dark squad - 8
+normal attack
+human warrior(6.0) Attacks with a sword orc archer(18.5) damage - 18.0
+move - 87
+light squad - 5 dark squad - 8
+normal attack
+orc goblin(60.0) Attacks with a club human warrior(6.0) damage - 20.0
+human warrior - is dead
+move - 88
+light squad - 4 dark squad - 8
+normal attack
+human warrior(60.0) Attacks with a sword orc archer(0.5) damage - 18.0
+orc archer - is dead
+move - 89
+light squad - 4 dark squad - 7
+normal attack
+human crossbow(75.0) attacks orc goblin(37.0) damage - 3.0
+move - 90
+light squad - 4 dark squad - 7
+normal attack
+human warrior(52.0) Attacks with a sword orc goblin(60.0) damage - 18.0
+move - 91
+light squad - 4 dark squad - 7
+normal attack
+human warrior(27.0) Attacks with a sword orc archer(49.0) damage - 18.0
+move - 92
+light squad - 4 dark squad - 7
+normal attack
+orc archer(31.0) shoots with bow human crossbow(75.0) damage - 3.0
+move - 93
+light squad - 4 dark squad - 7
+normal attack
+human warrior(60.0) Attacks with a sword orc goblin(19.0) damage - 18.0
+move - 94
+light squad - 4 dark squad - 7
+normal attack
+human warrior(27.0) Attacks with a sword orc goblin(95.0) damage - 18.0
+move - 95
+light squad - 4 dark squad - 7
+normal attack
+human crossbow(72.0) attacks orc archer(31.0) damage - 3.0
+move - 96
+light squad - 4 dark squad - 7
+normal attack
+human warrior(52.0) Attacks with a sword orc archer(28.0) damage - 18.0
+move - 97
+light squad - 4 dark squad - 7
+normal attack
+human crossbow(72.0) attack with crossbow orc archer(10.0) damage - 5.0
+move - 98
+light squad - 4 dark squad - 7
+normal attack
+human warrior(27.0) Attacks with a sword orc goblin(34.0) damage - 18.0
+move - 99
+light squad - 4 dark squad - 7
+normal attack
+orc goblin(42.0) Attacks with a club human warrior(27.0) damage - 20.0
+move - 100
+light squad - 4 dark squad - 7
+normal attack
+orc archer(5.0) Attacks with a dagger human warrior(60.0) damage - 2.0
+move - 101
+light squad - 4 dark squad - 7
+normal attack
+human warrior(58.0) Attacks with a sword orc archer(52.5) damage - 18.0
+move - 102
+light squad - 4 dark squad - 7
+normal attack
+orc goblin(42.0) Attacks with a club human warrior(52.0) damage - 20.0
+move - 103
+light squad - 4 dark squad - 7
+normal attack
+human warrior(32.0) Attacks with a sword orc shaman(64.0) damage - 18.0
+move - 104
+light squad - 4 dark squad - 7
+normal attack
+human crossbow(72.0) attacks orc archer(5.0) damage - 3.0
+move - 105
+light squad - 4 dark squad - 7
+normal attack
+human warrior(32.0) Attacks with a sword orc goblin(16.0) damage - 18.0
+orc goblin - is dead
+move - 106
+light squad - 4 dark squad - 6
+normal attack
+human crossbow(72.0) attack with crossbow orc goblin(77.0) damage - 5.0
+move - 107
+light squad - 4 dark squad - 6
+normal attack
+orc archer(34.5) Attacks with a dagger human warrior(58.0) damage - 2.0
+move - 108
+light squad - 4 dark squad - 6
+normal attack
+orc goblin(42.0) Attacks with a club human crossbow(72.0) damage - 20.0
+move - 109
+light squad - 4 dark squad - 6
+normal attack
+human warrior(7.0) Attacks with a sword orc archer(2.0) damage - 18.0
+orc archer - is dead
+move - 110
+light squad - 4 dark squad - 5
+normal attack
+orc goblin(1.0) Attacks with a club human warrior(56.0) damage - 20.0
+move - 111
+light squad - 4 dark squad - 5
+normal attack
+orc goblin(1.0) Attacks with a club human warrior(7.0) damage - 20.0
+human warrior - is dead
+move - 112
+light squad - 3 dark squad - 5
+normal attack
+human crossbow(52.0) attack with crossbow orc goblin(1.0) damage - 5.0
+orc goblin - is dead
+move - 113
+light squad - 3 dark squad - 4
+normal attack
+orc goblin(72.0) Attacks with a club human warrior(36.0) damage - 20.0
+move - 114
+light squad - 3 dark squad - 4
+normal attack
+human warrior(32.0) Attacks with a sword orc shaman(46.0) damage - 18.0
+move - 115
+light squad - 3 dark squad - 4
+normal attack
+orc archer(34.5) Attacks with a dagger human crossbow(52.0) damage - 2.0
+move - 116
+light squad - 3 dark squad - 4
+normal attack
+orc goblin(42.0) Attacks with a club human crossbow(50.0) damage - 20.0
+move - 117
+light squad - 3 dark squad - 4
+normal attack
+orc goblin(42.0) Attacks with a club human warrior(16.0) damage - 20.0
+human warrior - is dead
+move - 118
+light squad - 2 dark squad - 4
+normal attack
+human warrior(32.0) Attacks with a sword orc goblin(72.0) damage - 18.0
+move - 119
+light squad - 2 dark squad - 4
+normal attack
+human crossbow(30.0) attack with crossbow orc goblin(42.0) damage - 5.0
+move - 120
+light squad - 2 dark squad - 4
+normal attack
+human warrior(32.0) Attacks with a sword orc goblin(54.0) damage - 18.0
+move - 121
+light squad - 2 dark squad - 4
+normal attack
+orc goblin(37.0) Attacks with a club human crossbow(30.0) damage - 20.0
+move - 122
+light squad - 2 dark squad - 4
+normal attack
+human crossbow(10.0) attack with crossbow orc shaman(28.0) damage - 5.0
+move - 123
+light squad - 2 dark squad - 4
+normal attack
+human warrior(32.0) Attacks with a sword orc archer(34.5) damage - 18.0
+move - 124
+light squad - 2 dark squad - 4
+normal attack
+orc goblin(37.0) Attacks with a club human crossbow(10.0) damage - 20.0
+human crossbow - is dead
+move - 125
+light squad - 1 dark squad - 4
+normal attack
+orc goblin(37.0) Attacks with a club human warrior(32.0) damage - 20.0
+move - 126
+light squad - 1 dark squad - 4
+normal attack
+human warrior(12.0) Attacks with a sword orc goblin(37.0) damage - 18.0
+move - 127
+light squad - 1 dark squad - 4
+normal attack
+orc archer(16.5) Attacks with a dagger human warrior(12.0) damage - 2.0
+move - 128
+light squad - 1 dark squad - 4
+normal attack
+orc archer(16.5) Attacks with a dagger human warrior(10.0) damage - 2.0
+move - 129
+light squad - 1 dark squad - 4
+normal attack
+orc goblin(36.0) Attacks with a club human warrior(8.0) damage - 20.0
+human warrior - is dead
+The dark units won!
+Survivors:
+   orc archer(16.5)
+   orc goblin(36.0)
+   orc shaman(23.0)
+   orc goblin(19.0)

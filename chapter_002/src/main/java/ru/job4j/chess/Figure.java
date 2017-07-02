@@ -19,7 +19,6 @@ public abstract class Figure {
     public Figure(Cell position) {
         this.position = position;
     }
-
     /**
      * The method returns the path in the specified cell.
      * @param dist the end of the way
