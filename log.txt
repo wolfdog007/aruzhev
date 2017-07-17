@@ -1,536 +1,579 @@
 nullmove - 0
 light squad - 8 dark squad - 8
 improved attack
-orc goblin(100.0) Attacks with a club human crossbow(100.0) damage - 30.0
+undead zombies(100.0) attacks with spear human crossbow(100.0) damage - 27.0
 move - 1
 light squad - 8 dark squad - 8
 improved attack
-orc goblin(100.0) Attacks with a club human warrior(100.0) damage - 30.0
+human mage(100.0) attacks with magic undead hunter(100.0) damage - 6.0
 move - 2
 light squad - 8 dark squad - 8
 improved attack
-human crossbow(100.0) attack with crossbow orc archer(100.0) damage - 7.5
+human crossbow(100.0) attacks undead necromancer(100.0) damage - 4.5
 move - 3
 light squad - 8 dark squad - 8
 improved attack
-orc archer(100.0) Attacks with a dagger human crossbow(100.0) damage - 3.0
+human warrior(100.0) Attacks with a sword undead hunter(100.0) damage - 27.0
 move - 4
 light squad - 8 dark squad - 8
 improved attack
-human crossbow(100.0) attack with crossbow orc archer(100.0) damage - 7.5
+undead zombies(100.0) attacks with spear human warrior(100.0) damage - 27.0
 move - 5
 light squad - 8 dark squad - 8
 improved attack
-human warrior(100.0) Attacks with a sword orc archer(92.5) damage - 27.0
+undead zombies(100.0) attacks with spear human mage(100.0) damage - 27.0
 move - 6
 light squad - 8 dark squad - 8
-normal attack
-human mage(100.0) cast improvement human warrior(100.0)
+improved attack
+human crossbow cursed attack -50
 move - 7
 light squad - 8 dark squad - 8
 improved attack
-orc goblin(100.0) Attacks with a club human warrior(100.0) damage - 30.0
+human crossbow(73.0) attacks undead necromancer(95.5) damage - 2.25
+human crossbow curse is broken
 move - 8
 light squad - 8 dark squad - 8
 improved attack
-human warrior(100.0) Attacks with a sword orc goblin(100.0) damage - 27.0
+human warrior(100.0) Attacks with a sword undead hunter(73.0) damage - 27.0
 move - 9
 light squad - 8 dark squad - 8
-normal attack
-orc goblin(73.0) Attacks with a club human crossbow(97.0) damage - 20.0
+improved attack
+human crossbow(100.0) attack with crossbow undead zombies(100.0) damage - 7.5
 move - 10
 light squad - 8 dark squad - 8
-normal attack
-human warrior(70.0) Attacks with a sword orc goblin(100.0) damage - 18.0
+improved attack
+undead hunter(94.0) shoots with bow human warrior(100.0) damage - 6.0
 move - 11
 light squad - 8 dark squad - 8
 normal attack
-orc goblin(73.0) Attacks with a club human warrior(70.0) damage - 20.0
+human warrior(94.0) Attacks with a sword undead necromancer(93.25) damage - 18.0
 move - 12
 light squad - 8 dark squad - 8
 normal attack
-orc shaman(100.0) cast improvement orc shaman(100.0)
+undead hunter(94.0) attacks human crossbow(73.0) damage - 2.0
 move - 13
 light squad - 8 dark squad - 8
-improved attack
+normal attack
+human mage(73.0) attacks with magic undead hunter(94.0) damage - 4.0
 move - 14
 light squad - 8 dark squad - 8
 normal attack
-orc archer(92.5) Attacks with a dagger human warrior(100.0) damage - 2.0
+human crossbow(100.0) attacks undead hunter(90.0) damage - 3.0
 move - 15
 light squad - 8 dark squad - 8
 normal attack
-orc archer(100.0) shoots with bow human crossbow(77.0) damage - 3.0
+undead necromancer(75.25) magic attack human warrior(100.0) damage - 5.0
 move - 16
 light squad - 8 dark squad - 8
 normal attack
-orc goblin(73.0) Attacks with a club human crossbow(70.0) damage - 20.0
+human crossbow(71.0) attack with crossbow undead zombies(100.0) damage - 5.0
 move - 17
 light squad - 8 dark squad - 8
 normal attack
-orc archer(65.5) shoots with bow human warrior(70.0) damage - 3.0
+undead hunter(46.0) attacks human mage(73.0) damage - 2.0
 move - 18
 light squad - 8 dark squad - 8
 normal attack
-human warrior(50.0) Attacks with a sword orc archer(92.5) damage - 18.0
+human crossbow(71.0) attack with crossbow undead necromancer(75.25) damage - 5.0
 move - 19
 light squad - 8 dark squad - 8
 normal attack
-orc archer(74.5) shoots with bow human crossbow(50.0) damage - 3.0
+human warrior cursed attack -50
 move - 20
 light squad - 8 dark squad - 8
 normal attack
-orc goblin(82.0) Attacks with a club human crossbow(74.0) damage - 20.0
+human warrior(100.0) Attacks with a sword undead hunter(87.0) damage - 18.0
 move - 21
 light squad - 8 dark squad - 8
 normal attack
-orc goblin(100.0) Attacks with a club human crossbow(100.0) damage - 20.0
+undead hunter(69.0) shoots with bow human warrior(100.0) damage - 4.0
 move - 22
 light squad - 8 dark squad - 8
 normal attack
-orc goblin(73.0) Attacks with a club human warrior(67.0) damage - 20.0
+human crossbow(100.0) attack with crossbow undead necromancer(70.25) damage - 5.0
 move - 23
 light squad - 8 dark squad - 8
 normal attack
-orc goblin(73.0) Attacks with a club human crossbow(54.0) damage - 20.0
+undead zombies(92.5) attacks with spear human crossbow(100.0) damage - 18.0
 move - 24
 light squad - 8 dark squad - 8
 normal attack
-human warrior(100.0) Attacks with a sword orc goblin(100.0) damage - 18.0
+undead zombies(100.0) attacks with spear human warrior(73.0) damage - 18.0
 move - 25
 light squad - 8 dark squad - 8
 normal attack
-orc goblin(82.0) Attacks with a club human warrior(47.0) damage - 20.0
+undead hunter(46.0) shoots with bow human warrior(96.0) damage - 4.0
 move - 26
 light squad - 8 dark squad - 8
 normal attack
-orc goblin(100.0) Attacks with a club human crossbow(34.0) damage - 20.0
+human warrior(55.0) Attacks with a sword undead zombies(100.0) damage - 9.0
+human warrior curse is broken
 move - 27
 light squad - 8 dark squad - 8
 normal attack
-human crossbow(47.0) attack with crossbow orc goblin(100.0) damage - 5.0
+undead necromancer(65.25) magic attack human warrior(55.0) damage - 5.0
 move - 28
 light squad - 8 dark squad - 8
 normal attack
-orc goblin(82.0) Attacks with a club human crossbow(47.0) damage - 20.0
+undead zombies(91.0) attacks with spear human crossbow(100.0) damage - 18.0
 move - 29
 light squad - 8 dark squad - 8
 normal attack
-orc archer(74.5) shoots with bow human crossbow(80.0) damage - 3.0
+human warrior(95.0) Attacks with a sword undead necromancer(65.25) damage - 18.0
 move - 30
 light squad - 8 dark squad - 8
 normal attack
-human crossbow(14.0) attack with crossbow orc archer(74.5) damage - 5.0
+human warrior(94.0) Attacks with a sword undead hunter(69.0) damage - 18.0
 move - 31
 light squad - 8 dark squad - 8
 normal attack
-orc archer(69.5) Attacks with a dagger human warrior(50.0) damage - 2.0
+undead zombies(91.0) attacks with spear human warrior(95.0) damage - 18.0
 move - 32
 light squad - 8 dark squad - 8
 normal attack
-orc shaman(100.0) cast improvement orc shaman(100.0)
+undead zombies(91.0) attacks with spear human warrior(92.0) damage - 18.0
 move - 33
 light squad - 8 dark squad - 8
 normal attack
-human crossbow(14.0) attacks orc archer(65.5) damage - 3.0
+human crossbow(82.0) attack with crossbow undead hunter(100.0) damage - 5.0
 move - 34
 light squad - 8 dark squad - 8
-improved attack
-orc shaman(100.0) cast improvement orc goblin(82.0)
+normal attack
+human crossbow(82.0) attacks undead hunter(95.0) damage - 3.0
 move - 35
 light squad - 8 dark squad - 8
 normal attack
-human crossbow(27.0) attack with crossbow orc archer(62.5) damage - 5.0
+human mage(71.0) cast improvement human warrior(94.0)
 move - 36
 light squad - 8 dark squad - 8
-improved attack
-orc goblin(82.0) Attacks with a club human crossbow(14.0) damage - 30.0
-human crossbow - is dead
+normal attack
+human crossbow cursed attack -50
 move - 37
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-orc shaman(100.0) cast improvement orc goblin(73.0)
+undead zombies(95.0) attacks with spear human warrior(94.0) damage - 18.0
 move - 38
-light squad - 7 dark squad - 8
-improved attack
-orc goblin(73.0) Attacks with a club human mage(100.0) damage - 30.0
+light squad - 8 dark squad - 8
+normal attack
+undead hunter(46.0) shoots with bow human mage(71.0) damage - 4.0
 move - 39
-light squad - 7 dark squad - 8
-normal attack
+light squad - 8 dark squad - 8
+improved attack
+human warrior(76.0) Attacks with a sword undead zombies(92.5) damage - 27.0
 move - 40
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-human mage(70.0) attacks with magic orc goblin(82.0) damage - 4.0
+undead zombies(65.5) attacks with spear human mage(67.0) damage - 18.0
 move - 41
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-human mage(70.0) cast improvement human crossbow(77.0)
+human warrior(76.0) Attacks with a sword undead zombies(95.0) damage - 18.0
 move - 42
-light squad - 7 dark squad - 8
-improved attack
-human crossbow(77.0) attack with crossbow orc archer(100.0) damage - 7.5
+light squad - 8 dark squad - 8
+normal attack
+human crossbow(71.0) attack with crossbow undead zombies(100.0) damage - 2.5
+human crossbow curse is broken
 move - 43
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-human warrior(27.0) Attacks with a sword orc goblin(73.0) damage - 18.0
+undead hunter(92.0) attacks human crossbow(82.0) damage - 2.0
 move - 44
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-human warrior(27.0) Attacks with a sword orc goblin(82.0) damage - 18.0
+human warrior(76.0) Attacks with a sword undead hunter(92.0) damage - 18.0
 move - 45
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-human mage(70.0) attacks with magic orc goblin(78.0) damage - 4.0
+human warrior(76.0) Attacks with a sword undead hunter(46.0) damage - 18.0
 move - 46
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-human mage(70.0) cast improvement human crossbow(27.0)
+human warrior(50.0) Attacks with a sword undead hunter(51.0) damage - 18.0
 move - 47
-light squad - 7 dark squad - 8
-improved attack
-human crossbow(27.0) attacks orc archer(92.5) damage - 4.5
+light squad - 8 dark squad - 8
+normal attack
+human warrior(74.0) Attacks with a sword undead zombies(65.5) damage - 18.0
 move - 48
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-human crossbow(77.0) attack with crossbow orc goblin(74.0) damage - 5.0
+human mage(49.0) cast improvement human mage(49.0)
 move - 49
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-human crossbow(77.0) attack with crossbow orc archer(69.5) damage - 5.0
+undead zombies(77.0) attacks with spear human crossbow(80.0) damage - 18.0
 move - 50
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-orc archer(57.5) Attacks with a dagger human mage(70.0) damage - 2.0
+undead zombies(77.0) attacks with spear human warrior(76.0) damage - 18.0
 move - 51
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-human crossbow(27.0) attack with crossbow orc archer(64.5) damage - 5.0
+human crossbow cursed attack -50
 move - 52
-light squad - 7 dark squad - 8
-normal attack
-orc archer(88.0) shoots with bow human mage(68.0) damage - 3.0
-move - 53
-light squad - 7 dark squad - 8
-normal attack
-orc goblin(95.0) Attacks with a club human warrior(100.0) damage - 20.0
-move - 54
-light squad - 7 dark squad - 8
-normal attack
-human warrior(98.0) Attacks with a sword orc shaman(100.0) damage - 18.0
-move - 55
-light squad - 7 dark squad - 8
-normal attack
-human crossbow(27.0) attack with crossbow orc archer(57.5) damage - 5.0
-move - 56
-light squad - 7 dark squad - 8
-normal attack
-orc goblin(55.0) Attacks with a club human warrior(98.0) damage - 20.0
-move - 57
-light squad - 7 dark squad - 8
-normal attack
-human mage(65.0) cast improvement human warrior(80.0)
-move - 58
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 improved attack
-human warrior(80.0) Attacks with a sword orc goblin(69.0) damage - 27.0
+human mage(49.0) attacks with magic undead hunter(33.0) damage - 6.0
+move - 53
+light squad - 8 dark squad - 8
+normal attack
+human crossbow(71.0) attack with crossbow undead necromancer(47.25) damage - 5.0
+move - 54
+light squad - 8 dark squad - 8
+normal attack
+human warrior cursed attack -50
+move - 55
+light squad - 8 dark squad - 8
+normal attack
+undead hunter(74.0) shoots with bow human warrior(77.0) damage - 4.0
+move - 56
+light squad - 8 dark squad - 8
+normal attack
+undead zombies(91.0) attacks with spear human mage(49.0) damage - 18.0
+move - 57
+light squad - 8 dark squad - 8
+normal attack
+undead hunter(74.0) attacks human warrior(73.0) damage - 2.0
+move - 58
+light squad - 8 dark squad - 8
+normal attack
+human warrior(74.0) Attacks with a sword undead zombies(77.0) damage - 18.0
 move - 59
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-orc goblin(95.0) Attacks with a club human crossbow(27.0) damage - 20.0
+undead zombies(91.0) attacks with spear human warrior(74.0) damage - 18.0
 move - 60
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-orc archer(88.0) Attacks with a dagger human mage(65.0) damage - 2.0
+undead zombies(97.5) attacks with spear human crossbow(82.0) damage - 18.0
 move - 61
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-orc archer(52.5) Attacks with a dagger human crossbow(77.0) damage - 2.0
+human warrior(71.0) Attacks with a sword undead zombies(47.5) damage - 18.0
 move - 62
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-orc goblin(95.0) Attacks with a club human warrior(48.0) damage - 20.0
+human warrior(50.0) Attacks with a sword undead necromancer(42.25) damage - 9.0
+human warrior curse is broken
 move - 63
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-human warrior(78.0) Attacks with a sword orc archer(59.5) damage - 18.0
+undead hunter(74.0) attacks human warrior(58.0) damage - 2.0
 move - 64
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-orc goblin(64.0) Attacks with a club human mage(63.0) damage - 20.0
+undead zombies(91.0) attacks with spear human warrior(71.0) damage - 18.0
 move - 65
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-human mage(43.0) attacks with magic orc goblin(64.0) damage - 4.0
+undead zombies(91.0) attacks with spear human warrior(50.0) damage - 18.0
 move - 66
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-orc archer(88.0) Attacks with a dagger human warrior(28.0) damage - 2.0
+human crossbow(71.0) attack with crossbow undead zombies(91.0) damage - 5.0
 move - 67
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-human warrior(78.0) Attacks with a sword orc archer(41.5) damage - 18.0
+undead zombies(86.0) attacks with spear human crossbow(71.0) damage - 18.0
 move - 68
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-orc archer(52.5) shoots with bow human mage(43.0) damage - 3.0
+human crossbow(62.0) attacks undead hunter(28.0) damage - 1.5
+human crossbow curse is broken
 move - 69
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-orc goblin(60.0) Attacks with a club human warrior(26.0) damage - 20.0
+human warrior(53.0) Attacks with a sword undead hunter(27.0) damage - 18.0
 move - 70
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-human warrior(6.0) Attacks with a sword orc archer(88.0) damage - 18.0
+undead zombies(86.0) attacks with spear human warrior(32.0) damage - 18.0
 move - 71
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-human warrior(80.0) Attacks with a sword orc goblin(55.0) damage - 18.0
+human mage(31.0) cast improvement human warrior(53.0)
 move - 72
-light squad - 7 dark squad - 8
-normal attack
-human warrior(78.0) Attacks with a sword orc goblin(37.0) damage - 18.0
+light squad - 8 dark squad - 8
+improved attack
+human warrior(53.0) Attacks with a sword undead hunter(74.0) damage - 27.0
 move - 73
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-human crossbow(7.0) attacks orc archer(70.0) damage - 3.0
+undead hunter(47.0) shoots with bow human crossbow(53.0) damage - 4.0
 move - 74
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-orc archer(23.5) Attacks with a dagger human warrior(78.0) damage - 2.0
+human crossbow(49.0) attacks undead hunter(47.0) damage - 3.0
 move - 75
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-orc archer(23.5) Attacks with a dagger human warrior(76.0) damage - 2.0
+human warrior(14.0) Attacks with a sword undead zombies(97.5) damage - 18.0
 move - 76
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-orc goblin(19.0) Attacks with a club human mage(40.0) damage - 20.0
+human warrior(56.0) Attacks with a sword undead hunter(44.0) damage - 18.0
 move - 77
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-orc goblin(95.0) Attacks with a club human warrior(80.0) damage - 20.0
+undead hunter(26.0) shoots with bow human crossbow(64.0) damage - 4.0
 move - 78
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-orc goblin(95.0) Attacks with a club human warrior(74.0) damage - 20.0
+undead hunter(26.5) attacks human warrior(53.0) damage - 2.0
 move - 79
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-human crossbow(7.0) attack with crossbow orc goblin(42.0) damage - 5.0
+human warrior(14.0) Attacks with a sword undead hunter(26.5) damage - 18.0
 move - 80
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-human crossbow(7.0) attack with crossbow orc archer(23.5) damage - 5.0
+human crossbow(49.0) attack with crossbow undead hunter(9.0) damage - 5.0
 move - 81
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-human warrior(54.0) Attacks with a sword orc archer(67.0) damage - 18.0
+human crossbow(49.0) attacks undead zombies(86.0) damage - 3.0
 move - 82
-light squad - 7 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-orc goblin(60.0) Attacks with a club human crossbow(7.0) damage - 20.0
-human crossbow - is dead
+undead hunter(8.5) shoots with bow human crossbow(49.0) damage - 4.0
 move - 83
-light squad - 6 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-human warrior(27.0) Attacks with a sword orc shaman(82.0) damage - 18.0
+undead hunter(4.0) shoots with bow human warrior(56.0) damage - 4.0
 move - 84
-light squad - 6 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-orc goblin(60.0) Attacks with a club human mage(20.0) damage - 20.0
-human mage - is dead
+undead hunter(4.0) shoots with bow human crossbow(60.0) damage - 4.0
 move - 85
-light squad - 5 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-orc archer(52.5) Attacks with a dagger human warrior(54.0) damage - 2.0
+undead zombies(83.0) attacks with spear human warrior(51.0) damage - 18.0
 move - 86
-light squad - 5 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-human warrior(6.0) Attacks with a sword orc archer(18.5) damage - 18.0
+human crossbow(62.0) attack with crossbow undead zombies(79.5) damage - 5.0
 move - 87
-light squad - 5 dark squad - 8
+light squad - 8 dark squad - 8
 normal attack
-orc goblin(60.0) Attacks with a club human warrior(6.0) damage - 20.0
-human warrior - is dead
+human mage(31.0) cast improvement human warrior(14.0)
 move - 88
-light squad - 4 dark squad - 8
-normal attack
-human warrior(60.0) Attacks with a sword orc archer(0.5) damage - 18.0
-orc archer - is dead
+light squad - 8 dark squad - 8
+improved attack
+human warrior(14.0) Attacks with a sword undead zombies(29.5) damage - 27.0
 move - 89
-light squad - 4 dark squad - 7
+light squad - 8 dark squad - 8
 normal attack
-human crossbow(75.0) attacks orc goblin(37.0) damage - 3.0
+human warrior(14.0) Attacks with a sword undead hunter(26.0) damage - 18.0
 move - 90
-light squad - 4 dark squad - 7
+light squad - 8 dark squad - 8
 normal attack
-human warrior(52.0) Attacks with a sword orc goblin(60.0) damage - 18.0
+undead zombies(2.5) attacks with spear human crossbow(56.0) damage - 18.0
 move - 91
-light squad - 4 dark squad - 7
+light squad - 8 dark squad - 8
 normal attack
-human warrior(27.0) Attacks with a sword orc archer(49.0) damage - 18.0
+human warrior(14.0) Attacks with a sword undead hunter(8.0) damage - 18.0
+undead hunter - is dead
 move - 92
-light squad - 4 dark squad - 7
+light squad - 8 dark squad - 7
 normal attack
-orc archer(31.0) shoots with bow human crossbow(75.0) damage - 3.0
+human warrior(33.0) Attacks with a sword undead necromancer(33.25) damage - 18.0
 move - 93
-light squad - 4 dark squad - 7
+light squad - 8 dark squad - 7
 normal attack
-human warrior(60.0) Attacks with a sword orc goblin(19.0) damage - 18.0
+undead zombies(59.0) attacks with spear human warrior(52.0) damage - 18.0
 move - 94
-light squad - 4 dark squad - 7
+light squad - 8 dark squad - 7
 normal attack
-human warrior(27.0) Attacks with a sword orc goblin(95.0) damage - 18.0
+human warrior(33.0) Attacks with a sword undead hunter(4.0) damage - 18.0
+undead hunter - is dead
 move - 95
-light squad - 4 dark squad - 7
+light squad - 8 dark squad - 6
 normal attack
-human crossbow(72.0) attacks orc archer(31.0) damage - 3.0
+human warrior(14.0) Attacks with a sword undead zombies(59.0) damage - 18.0
 move - 96
-light squad - 4 dark squad - 7
+light squad - 8 dark squad - 6
 normal attack
-human warrior(52.0) Attacks with a sword orc archer(28.0) damage - 18.0
+human warrior(56.0) Attacks with a sword undead zombies(41.0) damage - 18.0
 move - 97
-light squad - 4 dark squad - 7
+light squad - 8 dark squad - 6
 normal attack
-human crossbow(72.0) attack with crossbow orc archer(10.0) damage - 5.0
+human crossbow(38.0) attacks undead hunter(8.5) damage - 3.0
 move - 98
-light squad - 4 dark squad - 7
+light squad - 8 dark squad - 6
 normal attack
-human warrior(27.0) Attacks with a sword orc goblin(34.0) damage - 18.0
+human warrior(34.0) Attacks with a sword undead zombies(74.5) damage - 18.0
 move - 99
-light squad - 4 dark squad - 7
+light squad - 8 dark squad - 6
 normal attack
-orc goblin(42.0) Attacks with a club human warrior(27.0) damage - 20.0
+human warrior(14.0) Attacks with a sword undead zombies(23.0) damage - 18.0
 move - 100
-light squad - 4 dark squad - 7
+light squad - 8 dark squad - 6
 normal attack
-orc archer(5.0) Attacks with a dagger human warrior(60.0) damage - 2.0
+human warrior(14.0) Attacks with a sword undead necromancer(15.25) damage - 18.0
+undead necromancer - is dead
 move - 101
-light squad - 4 dark squad - 7
+light squad - 8 dark squad - 5
 normal attack
-human warrior(58.0) Attacks with a sword orc archer(52.5) damage - 18.0
+human mage(31.0) attacks with magic undead hunter(5.5) damage - 4.0
 move - 102
-light squad - 4 dark squad - 7
+light squad - 8 dark squad - 5
 normal attack
-orc goblin(42.0) Attacks with a club human warrior(52.0) damage - 20.0
+human warrior(34.0) Attacks with a sword undead hunter(1.5) damage - 18.0
+undead hunter - is dead
 move - 103
-light squad - 4 dark squad - 7
+light squad - 8 dark squad - 4
 normal attack
-human warrior(32.0) Attacks with a sword orc shaman(64.0) damage - 18.0
+undead zombies(83.0) attacks with spear human crossbow(62.0) damage - 18.0
 move - 104
-light squad - 4 dark squad - 7
+light squad - 8 dark squad - 4
 normal attack
-human crossbow(72.0) attacks orc archer(5.0) damage - 3.0
+human warrior(33.0) Attacks with a sword undead zombies(2.5) damage - 18.0
+undead zombies - is dead
 move - 105
-light squad - 4 dark squad - 7
+light squad - 8 dark squad - 3
 normal attack
-human warrior(32.0) Attacks with a sword orc goblin(16.0) damage - 18.0
-orc goblin - is dead
+undead zombies(83.0) attacks with spear human warrior(14.0) damage - 18.0
+human warrior - is dead
 move - 106
-light squad - 4 dark squad - 6
+light squad - 7 dark squad - 3
 normal attack
-human crossbow(72.0) attack with crossbow orc goblin(77.0) damage - 5.0
+human warrior(56.0) Attacks with a sword undead zombies(56.5) damage - 18.0
 move - 107
-light squad - 4 dark squad - 6
+light squad - 7 dark squad - 3
 normal attack
-orc archer(34.5) Attacks with a dagger human warrior(58.0) damage - 2.0
+undead zombies(83.0) attacks with spear human warrior(34.0) damage - 18.0
 move - 108
-light squad - 4 dark squad - 6
+light squad - 7 dark squad - 3
 normal attack
-orc goblin(42.0) Attacks with a club human crossbow(72.0) damage - 20.0
+undead zombies(5.0) attacks with spear human warrior(56.0) damage - 18.0
 move - 109
-light squad - 4 dark squad - 6
+light squad - 7 dark squad - 3
 normal attack
-human warrior(7.0) Attacks with a sword orc archer(2.0) damage - 18.0
-orc archer - is dead
+human mage(31.0) attacks with magic undead zombies(5.0) damage - 4.0
 move - 110
-light squad - 4 dark squad - 5
+light squad - 7 dark squad - 3
 normal attack
-orc goblin(1.0) Attacks with a club human warrior(56.0) damage - 20.0
+undead zombies(1.0) attacks with spear human warrior(16.0) damage - 18.0
+human warrior - is dead
 move - 111
-light squad - 4 dark squad - 5
+light squad - 6 dark squad - 3
 normal attack
-orc goblin(1.0) Attacks with a club human warrior(7.0) damage - 20.0
-human warrior - is dead
+human crossbow(45.0) attack with crossbow undead zombies(38.5) damage - 5.0
 move - 112
-light squad - 3 dark squad - 5
+light squad - 6 dark squad - 3
 normal attack
-human crossbow(52.0) attack with crossbow orc goblin(1.0) damage - 5.0
-orc goblin - is dead
+human warrior(38.0) Attacks with a sword undead zombies(1.0) damage - 18.0
+undead zombies - is dead
 move - 113
-light squad - 3 dark squad - 4
+light squad - 6 dark squad - 2
 normal attack
-orc goblin(72.0) Attacks with a club human warrior(36.0) damage - 20.0
+human mage(31.0) attacks with magic undead zombies(83.0) damage - 4.0
 move - 114
-light squad - 3 dark squad - 4
+light squad - 6 dark squad - 2
 normal attack
-human warrior(32.0) Attacks with a sword orc shaman(46.0) damage - 18.0
+human crossbow(45.0) attacks undead zombies(79.0) damage - 3.0
 move - 115
-light squad - 3 dark squad - 4
+light squad - 6 dark squad - 2
 normal attack
-orc archer(34.5) Attacks with a dagger human crossbow(52.0) damage - 2.0
+human crossbow(38.0) attack with crossbow undead zombies(76.0) damage - 5.0
 move - 116
-light squad - 3 dark squad - 4
+light squad - 6 dark squad - 2
 normal attack
-orc goblin(42.0) Attacks with a club human crossbow(50.0) damage - 20.0
+human crossbow(44.0) attacks undead zombies(71.0) damage - 3.0
 move - 117
-light squad - 3 dark squad - 4
+light squad - 6 dark squad - 2
 normal attack
-orc goblin(42.0) Attacks with a club human warrior(16.0) damage - 20.0
-human warrior - is dead
+human warrior(38.0) Attacks with a sword undead zombies(33.5) damage - 18.0
 move - 118
-light squad - 2 dark squad - 4
+light squad - 6 dark squad - 2
 normal attack
-human warrior(32.0) Attacks with a sword orc goblin(72.0) damage - 18.0
+undead zombies(68.0) attacks with spear human mage(31.0) damage - 18.0
 move - 119
-light squad - 2 dark squad - 4
+light squad - 6 dark squad - 2
 normal attack
-human crossbow(30.0) attack with crossbow orc goblin(42.0) damage - 5.0
+undead zombies(68.0) attacks with spear human crossbow(45.0) damage - 18.0
 move - 120
-light squad - 2 dark squad - 4
+light squad - 6 dark squad - 2
 normal attack
-human warrior(32.0) Attacks with a sword orc goblin(54.0) damage - 18.0
+undead zombies(15.5) attacks with spear human crossbow(27.0) damage - 18.0
 move - 121
-light squad - 2 dark squad - 4
+light squad - 6 dark squad - 2
 normal attack
-orc goblin(37.0) Attacks with a club human crossbow(30.0) damage - 20.0
+undead zombies(15.5) attacks with spear human crossbow(44.0) damage - 18.0
 move - 122
-light squad - 2 dark squad - 4
+light squad - 6 dark squad - 2
 normal attack
-human crossbow(10.0) attack with crossbow orc shaman(28.0) damage - 5.0
+undead zombies(15.5) attacks with spear human warrior(38.0) damage - 18.0
 move - 123
-light squad - 2 dark squad - 4
+light squad - 6 dark squad - 2
 normal attack
-human warrior(32.0) Attacks with a sword orc archer(34.5) damage - 18.0
-move - 124
-light squad - 2 dark squad - 4
-normal attack
-orc goblin(37.0) Attacks with a club human crossbow(10.0) damage - 20.0
+undead zombies(68.0) attacks with spear human crossbow(9.0) damage - 18.0
 human crossbow - is dead
+move - 124
+light squad - 5 dark squad - 2
+normal attack
+human crossbow(26.0) attack with crossbow undead zombies(68.0) damage - 5.0
 move - 125
-light squad - 1 dark squad - 4
+light squad - 5 dark squad - 2
 normal attack
-orc goblin(37.0) Attacks with a club human warrior(32.0) damage - 20.0
+human warrior(20.0) Attacks with a sword undead zombies(15.5) damage - 18.0
+undead zombies - is dead
 move - 126
-light squad - 1 dark squad - 4
+light squad - 5 dark squad - 1
 normal attack
-human warrior(12.0) Attacks with a sword orc goblin(37.0) damage - 18.0
+undead zombies(63.0) attacks with spear human mage(13.0) damage - 18.0
+human mage - is dead
 move - 127
-light squad - 1 dark squad - 4
+light squad - 4 dark squad - 1
 normal attack
-orc archer(16.5) Attacks with a dagger human warrior(12.0) damage - 2.0
+human crossbow(26.0) attack with crossbow undead zombies(63.0) damage - 5.0
 move - 128
-light squad - 1 dark squad - 4
+light squad - 4 dark squad - 1
 normal attack
-orc archer(16.5) Attacks with a dagger human warrior(10.0) damage - 2.0
+undead zombies(58.0) attacks with spear human crossbow(26.0) damage - 18.0
 move - 129
-light squad - 1 dark squad - 4
+light squad - 4 dark squad - 1
 normal attack
-orc goblin(36.0) Attacks with a club human warrior(8.0) damage - 20.0
+undead zombies(58.0) attacks with spear human crossbow(8.0) damage - 18.0
+human crossbow - is dead
+move - 130
+light squad - 3 dark squad - 1
+normal attack
+undead zombies(58.0) attacks with spear human crossbow(38.0) damage - 18.0
+move - 131
+light squad - 3 dark squad - 1
+normal attack
+human warrior(20.0) Attacks with a sword undead zombies(58.0) damage - 18.0
+move - 132
+light squad - 3 dark squad - 1
+normal attack
+undead zombies(40.0) attacks with spear human crossbow(20.0) damage - 18.0
+move - 133
+light squad - 3 dark squad - 1
+normal attack
+undead zombies(40.0) attacks with spear human crossbow(2.0) damage - 18.0
+human crossbow - is dead
+move - 134
+light squad - 2 dark squad - 1
+normal attack
+undead zombies(40.0) attacks with spear human warrior(33.0) damage - 18.0
+move - 135
+light squad - 2 dark squad - 1
+normal attack
+undead zombies(40.0) attacks with spear human warrior(15.0) damage - 18.0
 human warrior - is dead
-The dark units won!
+move - 136
+light squad - 1 dark squad - 1
+normal attack
+human warrior(20.0) Attacks with a sword undead zombies(40.0) damage - 18.0
+move - 137
+light squad - 1 dark squad - 1
+normal attack
+human warrior(20.0) Attacks with a sword undead zombies(22.0) damage - 18.0
+move - 138
+light squad - 1 dark squad - 1
+normal attack
+human warrior(20.0) Attacks with a sword undead zombies(4.0) damage - 18.0
+undead zombies - is dead
+The light units won!
 Survivors:
-   orc archer(16.5)
-   orc goblin(36.0)
-   orc shaman(23.0)
-   orc goblin(19.0)
+   human warrior(20.0)
