@@ -14,7 +14,7 @@ public class TestingPerformanceTest {
     /**
      * Create new testingPerformance.
      */
-    TestingPerformance testingPerformance = new TestingPerformance();
+    private TestingPerformance testingPerformance = new TestingPerformance();
 
     /**
      * Completing the collection of 1000000 elements and the deletion time from the start of a collection of 500 items.
@@ -22,10 +22,10 @@ public class TestingPerformanceTest {
     @Test
     public void whenArrayList() {
         System.out.println("arrayList");
-        ArrayList<String> arrayList = new ArrayList<String>();
+        ArrayList<String> arrayList = new ArrayList<String>(0);
         System.out.println(testingPerformance.add(arrayList, 1000000));
         System.out.println(testingPerformance.delete(arrayList, 500));
-        System.out.println("++++++++++++++++++++++++");
+       // System.out.println("++++++++++++++++++++++++");
     }
 
     /**
@@ -37,7 +37,7 @@ public class TestingPerformanceTest {
         ArrayList<String> arrayList = new ArrayList<String>(1000000);
         System.out.println(testingPerformance.add(arrayList, 1000000));
         System.out.println(testingPerformance.delete(arrayList, 500));
-        System.out.println("++++++++++++++++++++++++");
+      //  System.out.println("++++++++++++++++++++++++");
     }
 
     /**
@@ -49,7 +49,7 @@ public class TestingPerformanceTest {
         LinkedList<String> linkedList = new LinkedList<String>();
         System.out.println(testingPerformance.add(linkedList, 1000000));
         System.out.println(testingPerformance.delete(linkedList, 500));
-        System.out.println("++++++++++++++++++++++++");
+       // System.out.println("++++++++++++++++++++++++");
     }
 
     /**
@@ -61,6 +61,6 @@ public class TestingPerformanceTest {
         TreeSet<String> treeSet = new TreeSet<String>();
         System.out.println(testingPerformance.add(treeSet, 1000000));
         System.out.println(testingPerformance.delete(treeSet, 500));
-        System.out.println("++++++++++++++++++++++++");
+       // System.out.println("++++++++++++++++++++++++");
     }
 }
