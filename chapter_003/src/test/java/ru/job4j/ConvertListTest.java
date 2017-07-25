@@ -2,6 +2,7 @@ package ru.job4j;
 
 import org.junit.Test;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -34,5 +35,18 @@ public class ConvertListTest {
         int[][] expectedArray = new int[][]{{1, 2, 3}, {4, 5, 6}, {7, 0, 0}};
         ConvertList convertList = new ConvertList();
         assertThat(expectedArray, is(convertList.toArray(list, 3)));
+    }
+
+    /**
+     * Test convert.
+     */
+    @Test
+    public void whenConvert() {
+        List<int[]> list = new ArrayList<>();
+        list.add(new int[]{1, 2});
+        list.add(new int[]{3, 4, 5, 6});
+        ConvertList convertList = new ConvertList();
+        List<Integer> expectedList = Arrays.asList(1, 2, 3, 4, 5, 6);
+        assertThat(expectedList, is(convertList.convert(list)));
     }
 }
