@@ -3,6 +3,8 @@ package ru.job4j.start;
 import ru.job4j.models.Item;
 
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Class menu for tracker.
@@ -22,7 +24,7 @@ public class MenuTracker {
     /**
      * The user action field.
      */
-    private UserAction[] userAction = new UserAction[7];
+    private List<UserAction> userAction = new ArrayList<>();
     /**
      * the position of the object in menu.
      */
@@ -43,12 +45,12 @@ public class MenuTracker {
      * The list of actions.
      */
     public void fillAction() {
-        this.userAction[position++] = new AddItem("Add the new item.");
-        this.userAction[position++] = new ShowItems("Show all items.");
-        this.userAction[position++] = new EditItem("Edit the item.");
-        this.userAction[position++] = new DeleteItem("Delete the item.");
-        this.userAction[position++] = new FindById("Find by id the item.");
-        this.userAction[position++] = new FindByName("Find by name the item.");
+        this.userAction.add(position++, new AddItem("Add the new item."));
+        this.userAction.add(position++, new ShowItems("Show all items."));
+        this.userAction.add(position++, new EditItem("Edit the item."));
+        this.userAction.add(position++, new DeleteItem("Delete the item."));
+        this.userAction.add(position++, new FindById("Find by id the item."));
+        this.userAction.add(position++, new FindByName("Find by name the item."));
     }
 
     /**
@@ -57,7 +59,7 @@ public class MenuTracker {
      * @param action menu item
      */
     public void addAction(UserAction action) {
-        this.userAction[position++] = action;
+        this.userAction.add(position++, action);
     }
 
     /**
@@ -66,9 +68,9 @@ public class MenuTracker {
      * @return range of possible answers
      */
     public int[] getAllUserAction() {
-        int[] allUA = new int[userAction.length];
-        for (int index = 0; index < userAction.length; index++) {
-            allUA[index] = userAction[index].key();
+        int[] allUA = new int[userAction.size()];
+        for (int index = 0; index < userAction.size(); index++) {
+            allUA[index] = userAction.get(index).key();
         }
         return allUA;
     }
@@ -79,7 +81,7 @@ public class MenuTracker {
      * @param key the user's choice
      */
     public void select(int key) {
-        this.userAction[key].execute(this.input, this.tracker);
+        this.userAction.get(key).execute(this.input, this.tracker);
     }
 
     /**

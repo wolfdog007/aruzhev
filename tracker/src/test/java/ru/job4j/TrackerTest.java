@@ -4,6 +4,9 @@ import org.junit.Test;
 import ru.job4j.models.Item;
 import ru.job4j.start.Tracker;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
@@ -22,7 +25,7 @@ public class TrackerTest {
         Tracker tracker = new Tracker();
         Item item = new Item("test1", "testDescription", 123L);
         tracker.add(item);
-        assertThat(tracker.getAll()[0], is(item));
+        assertThat(tracker.getAll().get(0), is(item));
     }
 
     /**
@@ -34,7 +37,7 @@ public class TrackerTest {
         Item item = new Item("test1", "testDescription", 123L);
         tracker.add(item);
         item.setName("TASK2");
-        assertThat(tracker.getAll()[0], is(item));
+        assertThat(tracker.getAll().get(0), is(item));
     }
 
     /**
@@ -70,7 +73,7 @@ public class TrackerTest {
         tracker.add(item);
         tracker.add(item2);
         tracker.delete(item.getId());
-        assertThat(tracker.getAll()[0], is(item2));
+        assertThat(tracker.getAll().get(0), is(item2));
     }
 
     /**
@@ -83,7 +86,9 @@ public class TrackerTest {
         Item item2 = new Item("test1", "testDescription", 123L);
         tracker.add(item);
         tracker.add(item2);
-        Item[] arrayTest = {item, item2};
+        List<Item> arrayTest = new ArrayList<>();
+        arrayTest.add(item);
+        arrayTest.add(item2);
         assertThat(arrayTest, is(tracker.getAll()));
     }
 }

@@ -2,7 +2,8 @@ package ru.job4j.start;
 
 import ru.job4j.models.Item;
 
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 /**
@@ -15,7 +16,7 @@ public class Tracker {
     /**
      * Array of items.
      */
-    private Item[] items = new Item[10];
+    private List<Item> items = new ArrayList<>(10);
     /**
      * index of Item[] items.
      */
@@ -33,7 +34,7 @@ public class Tracker {
      */
     public Item add(Item items) {
         items.setId(generateId());
-        this.items[position++] = items;
+        this.items.add(position++, items);
         return items;
     }
 
@@ -52,9 +53,9 @@ public class Tracker {
      * @param items - changed item
      */
     public void update(Item items) {
-        for (int i = 0; i < this.items.length; i++) {
-            if (this.items[i] != null && this.items[i].getId().equals(items.getId())) {
-                this.items[i] = items;
+        for (int i = 0; i < this.items.size(); i++) {
+            if (this.items.get(i) != null && this.items.get(i).getId().equals(items.getId())) {
+                this.items.add(i, items);
                 break;
             }
         }
@@ -100,12 +101,11 @@ public class Tracker {
      * @param id - unique key
      */
     public void delete(String id) {
-        for (int i = 0; i < this.items.length; i++) {
-            if (items[i] != null && items[i].getId().equals(id)) {
-                System.arraycopy(this.items, i + 1, this.items, i, this.items.length - i - 1);
+        for (int i = 0; i < this.items.size(); i++) {
+            if (this.items.get(i) != null && this.items.get(i).getId().equals(id)) {
+                this.items.remove(i);
             }
         }
-        this.items[items.length - 1] = null;
         position--;
     }
 
@@ -114,7 +114,7 @@ public class Tracker {
      *
      * @return - array items
      */
-    public Item[] getAll() {
-        return Arrays.copyOf(items, position);
+    public List<Item> getAll() {
+        return this.items;
     }
 }

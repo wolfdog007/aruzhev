@@ -11,6 +11,8 @@ import ru.job4j.start.MenuOutException;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.List;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
@@ -30,8 +32,8 @@ public class StubInputTest {
         Tracker tracker = new Tracker();
         Input input = new StubInput(new String[]{"0", "test name", "desc", "y"});
         new StartUI(tracker, input).init();
-        assertThat(tracker.getAll()[0].getName(), is("test name"));
-        assertThat(tracker.getAll()[0].getDesc(), is("desc"));
+        assertThat(tracker.getAll().get(0).getName(), is("test name"));
+        assertThat(tracker.getAll().get(0).getDesc(), is("desc"));
     }
 
     /**
@@ -45,7 +47,9 @@ public class StubInputTest {
         tracker.add(item);
         tracker.add(item2);
         new StartUI(tracker, new StubInput(new String[]{"1", "y"}));
-        Item[] arrayTest = {item, item2};
+        List<Item> arrayTest = new ArrayList<>();
+        arrayTest.add(item);
+        arrayTest.add(item2);
         assertThat(arrayTest, is(tracker.getAll()));
     }
 
@@ -57,10 +61,10 @@ public class StubInputTest {
         Tracker tracker = new Tracker();
         Input input = new StubInput(new String[]{"0", "test name", "desc", "y"});
         new StartUI(tracker, input).init();
-        input = new StubInput(new String[]{"2", tracker.getAll()[0].getId(), "changed name", "changed desc", "y"});
+        input = new StubInput(new String[]{"2", tracker.getAll().get(0).getId(), "changed name", "changed desc", "y"});
         new StartUI(tracker, input).init();
-        assertThat(tracker.getAll()[0].getName(), is("changed name"));
-        assertThat(tracker.getAll()[0].getDesc(), is("changed desc"));
+        assertThat(tracker.getAll().get(0).getName(), is("changed name"));
+        assertThat(tracker.getAll().get(0).getDesc(), is("changed desc"));
     }
 
     /**
@@ -71,9 +75,9 @@ public class StubInputTest {
         Tracker tracker = new Tracker();
         Input input = new StubInput(new String[]{"0", "name1", "desc1", "n", "0", "name2", "decs2", "y"});
         new StartUI(tracker, input).init();
-        input = new StubInput(new String[]{"3", tracker.getAll()[0].getId(), "y"});
+        input = new StubInput(new String[]{"3", tracker.getAll().get(0).getId(), "y"});
         new StartUI(tracker, input).init();
-        assertThat(tracker.getAll()[0].getName(), is("name2"));
+        assertThat(tracker.getAll().get(0).getName(), is("name2"));
     }
 
     /**
@@ -84,11 +88,11 @@ public class StubInputTest {
         Tracker tracker = new Tracker();
         Input input = new StubInput(new String[]{"0", "name1", "desc1", "n", "0", "name2", "decs2", "y"});
         new StartUI(tracker, input).init();
-        input = new StubInput(new String[]{"4", tracker.getAll()[1].getId(), "y"});
+        input = new StubInput(new String[]{"4", tracker.getAll().get(1).getId(), "y"});
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         System.setOut(new PrintStream(out));
         new StartUI(tracker, input).init();
-        String curStringDate = new SimpleDateFormat("dd.MM.yyyy hh:mm").format(tracker.getAll()[1].getCreated());
+        String curStringDate = new SimpleDateFormat("dd.MM.yyyy hh:mm").format(tracker.getAll().get(1).getCreated());
         assertThat(out.toString(), is(String.format("0. Add the new item." + System.lineSeparator()
                 + "1. Show all items." + System.lineSeparator()
                 + "2. Edit the item." + System.lineSeparator()
@@ -99,7 +103,7 @@ public class StubInputTest {
                 + "Id          - %s" + System.lineSeparator() + "Name        - name2"
                 + System.lineSeparator() + "Description - decs2" + System.lineSeparator()
                 + "Created     - %s" + System.lineSeparator()
-                + "-----------------------------" + System.lineSeparator(), tracker.getAll()[1].getId(), curStringDate)));
+                + "-----------------------------" + System.lineSeparator(), tracker.getAll().get(1).getId(), curStringDate)));
     }
 
     /**
@@ -110,11 +114,11 @@ public class StubInputTest {
         Tracker tracker = new Tracker();
         Input input = new StubInput(new String[]{"0", "name1", "desc1", "n", "0", "name2", "decs2", "y"});
         new StartUI(tracker, input).init();
-        input = new StubInput(new String[]{"5", tracker.getAll()[1].getName(), "y"});
+        input = new StubInput(new String[]{"5", tracker.getAll().get(1).getName(), "y"});
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         System.setOut(new PrintStream(out));
         new StartUI(tracker, input).init();
-        String curStringDate = new SimpleDateFormat("dd.MM.yyyy hh:mm").format(tracker.getAll()[1].getCreated());
+        String curStringDate = new SimpleDateFormat("dd.MM.yyyy hh:mm").format(tracker.getAll().get(1).getCreated());
         assertThat(out.toString(), is(String.format("0. Add the new item." + System.lineSeparator()
                 + "1. Show all items." + System.lineSeparator()
                 + "2. Edit the item." + System.lineSeparator()
@@ -126,7 +130,7 @@ public class StubInputTest {
                 + "Name        - name2" + System.lineSeparator()
                 + "Description - decs2" + System.lineSeparator()
                 + "Created     - %s" + System.lineSeparator()
-                + "-----------------------------" + System.lineSeparator(), tracker.getAll()[1].getId(), curStringDate)));
+                + "-----------------------------" + System.lineSeparator(), tracker.getAll().get(1).getId(), curStringDate)));
     }
 
     /**
