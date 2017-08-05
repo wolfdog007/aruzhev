@@ -37,4 +37,45 @@ public class SortUserTest {
 
         assertThat(trueResult, is(expectedResult));
     }
+
+    /**
+     * check work sortNameLength.
+     */
+    @Test
+    public void whenSortNameLength() {
+        User user1 = new User("111", 50);
+        User user2 = new User("2", 20);
+        User user3 = new User("33", 30);
+
+        List<User> userList = new ArrayList<>();
+        userList.add(user1);
+        userList.add(user2);
+        userList.add(user3);
+
+        User[] expectedResult = new SortUser().sortNameLength(userList).toArray(new User[userList.size()]);
+        User[] trueResult = {user2, user3, user1};
+
+        assertThat(trueResult, is(expectedResult));
+    }
+
+    /**
+     * check work sortByAllFields.
+     */
+    @Test
+    public void whenSortByAllFields() {
+        User user1 = new User("111", 50);
+        User user2 = new User("222", 20);
+        User user3 = new User("33", 10);
+
+        List<User> userList = new ArrayList<>();
+        userList.add(user1);
+        userList.add(user2);
+        userList.add(user3);
+
+        User[] expectedResult = new SortUser().sortByAllFields(userList).toArray(new User[userList.size()]);
+        User[] trueResult = {user3, user2, user1};
+
+        assertThat(trueResult, is(expectedResult));
+    }
+
 }
