@@ -65,7 +65,7 @@ public class SortUserTest {
     public void whenSortByAllFields() {
         User user1 = new User("111", 50);
         User user2 = new User("222", 20);
-        User user3 = new User("33", 10);
+        User user3 = new User("33", 60);
 
         List<User> userList = new ArrayList<>();
         userList.add(user1);
@@ -77,5 +77,4 @@ public class SortUserTest {
 
         assertThat(trueResult, is(expectedResult));
     }
-
 }

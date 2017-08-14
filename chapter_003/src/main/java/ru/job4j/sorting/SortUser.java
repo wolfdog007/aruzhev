@@ -13,6 +13,26 @@ import java.util.TreeSet;
  */
 public class SortUser {
     /**
+     * Fields contains a comparator for sortNameLength.
+     */
+    private Comparator compareLength = new Comparator<User>() {
+        @Override
+        public int compare(User o1, User o2) {
+            return o1.getName().length() - o2.getName().length();
+        }
+    };
+    /**
+     * Fields contains a comparator for sortByAllFields.
+     */
+    private Comparator compareAllFields = new Comparator<User>() {
+        @Override
+        public int compare(User o1, User o2) {
+            final int compareAll = o1.getName().length() - o2.getName().length();
+            return compareAll == 0 ? o1.compareTo(o2) : compareAll;
+        }
+    };
+
+    /**
      * Method Sorts the list of users by age and returns it to TreeSet.
      *
      * @param userList a list of users.
@@ -33,12 +53,7 @@ public class SortUser {
      * @return sorting list users
      */
     public List<User> sortNameLength(List<User> userList) {
-        userList.sort(new Comparator<User>() {
-            @Override
-            public int compare(User o1, User o2) {
-                return o1.getName().length() - o2.getName().length();
-            }
-        });
+        userList.sort(compareLength);
         return userList;
     }
 
@@ -46,15 +61,10 @@ public class SortUser {
      * Method Sorts the list of users by name length and age.
      *
      * @param userList a list of users
-     * @return orting list users
+     * @return sorting list users
      */
     public List<User> sortByAllFields(List<User> userList) {
-        userList.sort(new Comparator<User>() {
-            @Override
-            public int compare(User o1, User o2) {
-                return o1.getName().length() - o2.getName().length() == 0 ? o1.getAge() - o2.getAge() : o1.getName().length() - o2.getName().length();
-            }
-        });
+        userList.sort(compareAllFields);
         return userList;
     }
 }
