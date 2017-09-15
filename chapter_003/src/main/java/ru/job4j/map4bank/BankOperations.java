@@ -60,7 +60,7 @@ public class BankOperations {
      * @param account - new account
      * @throws UserNotFoundException - not find User in userListMap
      */
-    public void addAccountToUser(User user, Account account) throws UserNotFoundException {
+    public void addAccountToUser(User user, Account account) {
         if (account != null) {
             if (this.userListMap.containsKey(user)) {
                 this.userListMap.get(user).add(account);
@@ -78,7 +78,7 @@ public class BankOperations {
      * @throws UserNotFoundException - not find User in userListMap
      * @throws AccountFundsException - not find account in userListMap
      */
-    public void deleteAccountFromUser(User user, Account account) throws UserNotFoundException, AccountFundsException {
+    public void deleteAccountFromUser(User user, Account account) {
         if (this.userListMap.containsKey(user)) {
             if (this.getUserAccounts(user).contains(account)) {
                 this.userListMap.get(user).remove(account);
@@ -97,7 +97,7 @@ public class BankOperations {
      * @return list of accounts
      * @throws UserNotFoundException - not find User in userListMap
      */
-    public List<Account> getUserAccounts(User user) throws UserNotFoundException {
+    public List<Account> getUserAccounts(User user) {
         List resultList;
         if (this.userListMap.containsKey(user)) {
             resultList = this.userListMap.get(user);
@@ -120,7 +120,7 @@ public class BankOperations {
      * @throws AccountNotFoundException - not find account in userListMap
      * @throws AccountFundsException    - insufficient funds on account
      */
-    public boolean transferMoney(User srcUser, Account srcAccount, User dstUser, Account dstAccount, double amount) throws UserNotFoundException, AccountNotFoundException, AccountFundsException {
+    public boolean transferMoney(User srcUser, Account srcAccount, User dstUser, Account dstAccount, double amount) {
         boolean validate = false;
         if (this.userListMap.containsKey(srcUser) && this.userListMap.containsKey(dstUser)) {
             if (this.userListMap.get(srcUser).contains(srcAccount) && this.userListMap.get(dstUser).contains(dstAccount)) {
