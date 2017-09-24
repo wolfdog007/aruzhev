@@ -9,7 +9,7 @@ import java.util.NoSuchElementException;
  * @author Ruzhev Alexander
  * @since 18.09.2017
  */
-public class Iterator2dimensionalArray implements Iterator, Iterable {
+public class Iterator2dimensionalArray implements Iterator {
     /**
      * A two-dimensional array.
      */
