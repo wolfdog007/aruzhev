@@ -91,5 +91,6 @@ public class Iterator2dimensionalArrayTest {
         assertThat(iterator.next(), is(7));
         assertThat(iterator.next(), is(8));
         assertThat(iterator.next(), is(9));
+        assertThat(iterator.hasNext(), is(false));
     }
 }

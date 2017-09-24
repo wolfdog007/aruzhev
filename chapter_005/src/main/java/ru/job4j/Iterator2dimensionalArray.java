@@ -5,10 +5,11 @@ import java.util.NoSuchElementException;
 
 /**
  * An iterator for a two-dimensional array.
+ *
  * @author Ruzhev Alexander
  * @since 18.09.2017
  */
-public class Iterator2dimensionalArray implements Iterator {
+public class Iterator2dimensionalArray implements Iterator, Iterable {
     /**
      * A two-dimensional array.
      */
@@ -20,14 +21,16 @@ public class Iterator2dimensionalArray implements Iterator {
 
     /**
      * Constructor.
+     *
      * @param array two-dimensional array
      */
-    public Iterator2dimensionalArray(int[][] array) {
+    Iterator2dimensionalArray(int[][] array) {
         this.array = array;
     }
 
     /**
      * Get array length.
+     *
      * @return array length. If null then return -1
      */
     private int getArrayLength() {
@@ -36,8 +39,6 @@ public class Iterator2dimensionalArray implements Iterator {
             for (int[] anArray : this.array) {
                 arrayLength += anArray.length;
             }
-        } else {
-            arrayLength = -1;
         }
         return arrayLength;
     }
@@ -51,7 +52,6 @@ public class Iterator2dimensionalArray implements Iterator {
      */
     @Override
     public boolean hasNext() {
-        System.out.println(getArrayLength());
         return this.position < getArrayLength();
     }
 
@@ -79,5 +79,15 @@ public class Iterator2dimensionalArray implements Iterator {
         } catch (Exception ex) {
             throw new NoSuchElementException();
         }
+    }
+
+    /**
+     * Returns an iterator over elements of type {@code T}.
+     *
+     * @return an Iterator.
+     */
+    @Override
+    public Iterator iterator() {
+        return this;
     }
 }
