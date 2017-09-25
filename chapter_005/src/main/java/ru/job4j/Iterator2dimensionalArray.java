@@ -80,14 +80,4 @@ public class Iterator2dimensionalArray implements Iterator {
             throw new NoSuchElementException();
         }
     }
-
-    /**
-     * Returns an iterator over elements of type {@code T}.
-     *
-     * @return an Iterator.
-     */
-    @Override
-    public Iterator iterator() {
-        return this;
-    }
 }
