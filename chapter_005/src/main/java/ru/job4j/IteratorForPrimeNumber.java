@@ -16,6 +16,10 @@ public class IteratorForPrimeNumber implements Iterator {
      * The position of the iterator.
      */
     private int position = 0;
+    /**
+     * the index of the next prime number.
+     */
+    private int indexNextPrimeNumber;
 
     /**
      * Constructor.
@@ -34,7 +38,7 @@ public class IteratorForPrimeNumber implements Iterator {
      */
     private boolean checkPrime(int number) {
         boolean result = true;
-        if (number < 1) {
+        if (number <= 1) {
             result = false;
         }
         for (int i = 2; i <= number / 2; i++) {
@@ -57,6 +61,7 @@ public class IteratorForPrimeNumber implements Iterator {
         boolean result = false;
         for (int i = this.position; i < this.array.length; i++) {
             if (this.checkPrime(this.array[i])) {
+                this.indexNextPrimeNumber = i;
                 result = true;
                 break;
             }
@@ -72,13 +77,11 @@ public class IteratorForPrimeNumber implements Iterator {
      */
     @Override
     public Object next() {
-        try {
-            while (!this.checkPrime(this.array[this.position])) {
-                this.position++;
-            }
-            return this.array[this.position++];
-        } catch (Exception ex) {
+        if (!hasNext()) {
             throw new NoSuchElementException();
+        } else {
+            this.position = this.indexNextPrimeNumber;
         }
+        return this.array[this.position++];
     }
 }

@@ -21,7 +21,7 @@ public class IteratorForEvenNumbers implements Iterator {
     /**
      * the index of the next even number.
      */
-    private int indexNextPrimeNumber;
+    private int indexNextEventNumber;
 
     /**
      * Constructor.
@@ -44,7 +44,7 @@ public class IteratorForEvenNumbers implements Iterator {
         boolean result = false;
         for (int index = this.position; index < this.array.length; index++) {
             if (this.array[index] % 2 == 0) {
-                this.indexNextPrimeNumber = index;
+                this.indexNextEventNumber = index;
                 result = true;
                 break;
             }
@@ -63,7 +63,7 @@ public class IteratorForEvenNumbers implements Iterator {
         if (!hasNext()) {
             throw new NoSuchElementException();
         } else {
-            this.position = this.indexNextPrimeNumber;
+            this.position = this.indexNextEventNumber;
         }
         return this.array[this.position++];
     }

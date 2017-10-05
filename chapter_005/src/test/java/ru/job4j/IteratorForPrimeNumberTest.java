@@ -24,7 +24,6 @@ public class IteratorForPrimeNumberTest {
         iterator.next();
         iterator.next();
         iterator.next();
-        iterator.next();
         assertThat(iterator.hasNext(), is(false));
     }
 
@@ -35,7 +34,6 @@ public class IteratorForPrimeNumberTest {
     public void whenNextThenGetPrimeNumber() {
         int[] array = new int[]{0, 1, 2, 3, 4, 5, 6, 7, 8};
         IteratorForPrimeNumber iterator = new IteratorForPrimeNumber(array);
-        assertThat(iterator.next(), is(1));
         assertThat(iterator.next(), is(2));
         assertThat(iterator.next(), is(3));
         assertThat(iterator.next(), is(5));
