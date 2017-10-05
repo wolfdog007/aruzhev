@@ -18,6 +18,10 @@ public class IteratorForEvenNumbers implements Iterator {
      * The position of the iterator.
      */
     private int position = 0;
+    /**
+     * the index of the next even number.
+     */
+    private int indexNextPrimeNumber;
 
     /**
      * Constructor.
@@ -40,6 +44,7 @@ public class IteratorForEvenNumbers implements Iterator {
         boolean result = false;
         for (int index = this.position; index < this.array.length; index++) {
             if (this.array[index] % 2 == 0) {
+                this.indexNextPrimeNumber = index;
                 result = true;
                 break;
             }
@@ -55,13 +60,11 @@ public class IteratorForEvenNumbers implements Iterator {
      */
     @Override
     public Object next() {
-        try {
-            while (this.array[this.position] % 2 != 0) {
-                this.position++;
-            }
-            return this.array[this.position++];
-        } catch (Exception ex) {
+        if (!hasNext()) {
             throw new NoSuchElementException();
+        } else {
+            this.position = this.indexNextPrimeNumber;
         }
+        return this.array[this.position++];
     }
 }
