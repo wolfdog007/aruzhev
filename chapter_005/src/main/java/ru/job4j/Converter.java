@@ -22,7 +22,7 @@ public class Converter {
 
             @Override
             public boolean hasNext() {
-                return current != null && current.hasNext();
+                return current != null && (current.hasNext() || it.hasNext());
             }
 
             @Override
@@ -30,11 +30,10 @@ public class Converter {
                 while (!current.hasNext()) {
                     current = it.next();
                 }
-                try {
-                    return current.next();
-                } catch (Exception ex) {
+                if (!(current.hasNext() || it.hasNext())) {
                     throw new NoSuchElementException();
                 }
+                return current.next();
             }
         };
     }
