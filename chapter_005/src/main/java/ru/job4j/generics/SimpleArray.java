@@ -112,7 +112,7 @@ public class SimpleArray<T> {
     public boolean update(T valueInSimpleArray, T value) {
         boolean result = true;
         int foundIndex = getIndex(valueInSimpleArray);
-        if (foundIndex > 0) {
+        if (foundIndex >= 0) {
             this.objects[foundIndex] = value;
         } else {
             result = false;

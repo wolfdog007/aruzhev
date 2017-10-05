@@ -98,8 +98,8 @@ public class SimpleArrayTest {
         SimpleArray<String> array = new SimpleArray<>();
         array.add("a");
         array.add("b");
-        boolean result = array.update("b", "c");
-        assertThat("c", is(array.get(1)));
+        boolean result = array.update("a", "c");
+        assertThat("c", is(array.get(0)));
         assertThat(true, is(result));
     }
     /**
