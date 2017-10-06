@@ -1,6 +1,8 @@
 package ru.job4j.generics;
 
 import java.util.Arrays;
+import java.util.Iterator;
+import java.util.NoSuchElementException;
 
 /**
  * A simple wrapper over an array.
@@ -9,7 +11,7 @@ import java.util.Arrays;
  * @author Ruzhev Alexander
  * @since 03.10.2017
  */
-public class SimpleArray<T> {
+public class SimpleArray<T> implements Iterable<T> {
     /**
      * Array of objects.
      */
@@ -164,5 +166,32 @@ public class SimpleArray<T> {
         if (index > this.index || index < 0) {
             throw new IndexOutOfBoundsException(String.format("Index: %s, Size: %s", index, this.index));
         }
+    }
+
+    /**
+     * The method return iterator.
+     *
+     * @return iterator for class;
+     */
+    public Iterator<T> iterator() {
+        return new Iterator<T>() {
+            /**
+             * Position in array.
+             */
+            private int position = 0;
+
+            @Override
+            public boolean hasNext() {
+                return position < index;
+            }
+
+            @Override
+            public T next() {
+                if (position >= index) {
+                    throw new NoSuchElementException();
+                }
+                return (T) objects[position++];
+            }
+        };
     }
 }
