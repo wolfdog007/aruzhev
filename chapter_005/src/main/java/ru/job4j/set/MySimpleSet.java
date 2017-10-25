@@ -120,7 +120,7 @@ public class MySimpleSet<E> implements Iterable<E> {
     private boolean duplicateCheck(E value) {
         boolean result = false;
         for (int i = 0; i < this.index; i++) {
-            if (value.equals(objects[i])) {
+            if (this.objects[i].equals(value)) {
                 result = true;
                 break;
             }
@@ -134,7 +134,7 @@ public class MySimpleSet<E> implements Iterable<E> {
      * @param index position in array
      */
     private void rangeCheck(int index) {
-        if (index > this.index || index < 0) {
+        if (index >= this.index || index < 0) {
             throw new IndexOutOfBoundsException(String.format("Index: %s, Size: %s", index, this.index));
         }
     }
