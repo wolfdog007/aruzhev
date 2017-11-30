@@ -50,18 +50,25 @@ public class MyHashSet<E> {
      */
     public boolean add(E e) {
         boolean result = false;
-        if (bucketSize * 0.75 <= size) {
+        if (bucketSize * 3 / 4 <= size) {
             increase();
         }
         int index = Math.abs(e.hashCode() % bucketSize);
-        if (!contains(e)) {
-            if (this.list[index] == null) {
-                this.list[index] = new Node<E>(null, e, null);
-            } else {
-                node.next = new Node<E>(node, e, null);
-            }
+        if (this.list[index] == null) {
+            this.list[index] = new Node<E>(null, e, null);
             size++;
             result = true;
+        } else {
+            this.node = this.list[index];
+            while (this.node.item.hashCode() != e.hashCode() || !this.node.item.equals(e)) {
+                if (this.node.next == null) {
+                    this.node.next = new Node<E>(node, e, null);
+                    size++;
+                    result = true;
+                    break;
+                }
+                this.node = this.node.next;
+            }
         }
         return result;
     }
@@ -156,12 +163,11 @@ public class MyHashSet<E> {
         int index = Math.abs(e.hashCode() % bucketSize);
         if (contains(e)) {
             result = true;
-            if (node.prev == null) {
-                this.list[index] = node.next;
+            if (this.node.prev == null) {
+                this.list[index] = this.node.next;
             } else {
-                node.prev.next = node.next;
+                this.node.prev.next = node.next;
             }
-            this.node = this.node.next;
             size--;
         }
         return result;
@@ -176,12 +182,7 @@ public class MyHashSet<E> {
         return size;
     }
 
-
     /**
-     * Reference to the last element.
-     */
-    /**
-     * /**
      * The inner class for storing values and references.
      *
      * @param <E> the type of elements in this collection
