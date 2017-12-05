@@ -37,7 +37,20 @@ public class User {
 
     @Override
     public int hashCode() {
-        return this.birthday.hashCode() + this.children + this.name.hashCode();
+//        return this.birthday.hashCode() + this.children + this.name.hashCode();
+        return super.hashCode();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        Boolean result = false;
+        if (!(obj == null || getClass() != obj.getClass())) {
+            User user = (User) obj;
+            result = this.name.equals(user.getName())
+                    && this.children == user.getChildren()
+                    && this.birthday.equals(user.getBirthday());
+        }
+        return result;
     }
 
     /**
