@@ -35,6 +35,11 @@ public class User {
         this.birthday = birthday;
     }
 
+    @Override
+    public int hashCode() {
+        return this.birthday.hashCode() + this.children + this.name.hashCode();
+    }
+
     /**
      * Getter for name.
      *
