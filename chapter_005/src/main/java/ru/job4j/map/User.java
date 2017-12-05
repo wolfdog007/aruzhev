@@ -37,8 +37,7 @@ public class User {
 
     @Override
     public int hashCode() {
-//        return this.birthday.hashCode() + this.children + this.name.hashCode();
-        return super.hashCode();
+        return this.birthday.hashCode() + this.children + this.name.hashCode();
     }
 
     @Override

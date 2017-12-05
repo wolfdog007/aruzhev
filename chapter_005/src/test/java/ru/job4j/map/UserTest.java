@@ -28,7 +28,7 @@ public class UserTest {
         map.put(user1, "one");
         map.put(user2, "two");
         System.out.print(map);
-        //  assertThat(user1.hashCode(), is(user2.hashCode()));
+        assertThat(user1.hashCode(), is(user2.hashCode()));
         assertThat(user1.equals(user2), is(true));
         assertThat(user1.getName().equals(user2.getName()), is(true));
         assertThat(user1.getChildren() == user2.getChildren(), is(true));
