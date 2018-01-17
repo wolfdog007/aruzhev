@@ -1,0 +1,640 @@
+nullmove - 0
+light squad - 8 dark squad - 8
+improved attack
+elven warrior(100.0) Attacks with a sword undead zombies(100.0) damage - 22.5
+move - 1
+light squad - 8 dark squad - 8
+improved attack
+undead zombies(77.5) attacks with spear elven Archer(100.0) damage - 27.0
+move - 2
+light squad - 8 dark squad - 8
+improved attack
+undead hunter(100.0) attacks elven Archer(100.0) damage - 3.0
+move - 3
+light squad - 8 dark squad - 8
+improved attack
+elven Archer(97.0) Attacks the enemy undead zombies(100.0) damage - 4.5
+move - 4
+light squad - 8 dark squad - 8
+improved attack
+elven warrior(100.0) Attacks with a sword undead hunter(100.0) damage - 22.5
+move - 5
+light squad - 8 dark squad - 8
+improved attack
+undead hunter(77.5) attacks elven Archer(73.0) damage - 3.0
+move - 6
+light squad - 8 dark squad - 8
+improved attack
+undead hunter(100.0) attacks elven Archer(70.0) damage - 3.0
+move - 7
+light squad - 8 dark squad - 8
+normal attack
+elven warrior(100.0) Attacks with a sword undead zombies(100.0) damage - 15.0
+move - 8
+light squad - 8 dark squad - 8
+normal attack
+elven warrior(100.0) Attacks with a sword undead hunter(77.5) damage - 15.0
+move - 9
+light squad - 8 dark squad - 8
+normal attack
+elven warrior(100.0) Attacks with a sword undead hunter(100.0) damage - 15.0
+move - 10
+light squad - 8 dark squad - 8
+improved attack
+undead zombies(95.5) attacks with spear elven Archer(97.0) damage - 27.0
+move - 11
+light squad - 8 dark squad - 8
+improved attack
+undead zombies(85.0) attacks with spear elven Archer(70.0) damage - 27.0
+move - 12
+light squad - 8 dark squad - 8
+normal attack
+elven warrior(100.0) Attacks with a sword undead zombies(77.5) damage - 15.0
+move - 13
+light squad - 8 dark squad - 8
+normal attack
+undead hunter(85.0) shoots with bow elven warrior(100.0) damage - 4.0
+move - 14
+light squad - 8 dark squad - 8
+normal attack
+undead hunter(100.0) shoots with bow elven Archer(100.0) damage - 4.0
+move - 15
+light squad - 8 dark squad - 8
+normal attack
+elven Mage(100.0) cast improvement elven warrior(100.0)
+move - 16
+light squad - 8 dark squad - 8
+normal attack
+undead zombies(85.0) attacks with spear elven warrior(100.0) damage - 18.0
+move - 17
+light squad - 8 dark squad - 8
+improved attack
+elven warrior(100.0) Attacks with a sword undead zombies(62.5) damage - 22.5
+move - 18
+light squad - 8 dark squad - 8
+normal attack
+elven Mage(100.0) magic attack undead necromancer(100.0) damage - 10.0
+move - 19
+light squad - 8 dark squad - 8
+normal attack
+elven Mage(100.0) magic attack undead zombies(95.5) damage - 10.0
+move - 20
+light squad - 8 dark squad - 8
+normal attack
+elven warrior(100.0) Attacks with a sword undead hunter(100.0) damage - 15.0
+move - 21
+light squad - 8 dark squad - 8
+normal attack
+elven warrior(96.0) Attacks with a sword undead hunter(62.5) damage - 15.0
+move - 22
+light squad - 8 dark squad - 8
+normal attack
+undead zombies(85.0) attacks with spear elven Archer(67.0) damage - 18.0
+move - 23
+light squad - 8 dark squad - 8
+normal attack
+elven warrior(100.0) Attacks with a sword undead zombies(40.0) damage - 15.0
+move - 24
+light squad - 8 dark squad - 8
+normal attack
+undead hunter(85.0) shoots with bow elven Mage(100.0) damage - 4.0
+move - 25
+light squad - 8 dark squad - 8
+normal attack
+elven Archer(43.0) shoots with bow undead hunter(85.0) damage - 7.0
+move - 26
+light squad - 8 dark squad - 8
+normal attack
+undead zombies(25.0) attacks with spear elven Mage(96.0) damage - 18.0
+move - 27
+light squad - 8 dark squad - 8
+normal attack
+undead hunter(47.5) shoots with bow elven Archer(96.0) damage - 4.0
+move - 28
+light squad - 8 dark squad - 8
+normal attack
+elven Archer(49.0) Attacks the enemy undead zombies(85.0) damage - 3.0
+move - 29
+light squad - 8 dark squad - 8
+normal attack
+elven Archer(92.0) Attacks the enemy undead necromancer(90.0) damage - 3.0
+move - 30
+light squad - 8 dark squad - 8
+normal attack
+undead zombies(82.0) attacks with spear elven warrior(96.0) damage - 18.0
+move - 31
+light squad - 8 dark squad - 8
+normal attack
+elven Archer(49.0) shoots with bow undead hunter(85.0) damage - 7.0
+move - 32
+light squad - 8 dark squad - 8
+normal attack
+elven Archer(43.0) shoots with bow undead hunter(47.5) damage - 7.0
+move - 33
+light squad - 8 dark squad - 8
+normal attack
+undead hunter(78.0) shoots with bow elven Mage(78.0) damage - 4.0
+move - 34
+light squad - 8 dark squad - 8
+normal attack
+elven warrior(82.0) Attacks with a sword undead zombies(85.5) damage - 15.0
+move - 35
+light squad - 8 dark squad - 8
+normal attack
+elven Archer(49.0) Attacks the enemy undead hunter(40.5) damage - 3.0
+move - 36
+light squad - 8 dark squad - 8
+normal attack
+elven Archer(43.0) shoots with bow undead zombies(100.0) damage - 7.0
+move - 37
+light squad - 8 dark squad - 8
+normal attack
+elven Archer(43.0) shoots with bow undead necromancer(87.0) damage - 7.0
+move - 38
+light squad - 8 dark squad - 8
+normal attack
+undead hunter(37.5) shoots with bow elven Mage(74.0) damage - 4.0
+move - 39
+light squad - 8 dark squad - 8
+normal attack
+elven warrior cursed attack -50
+move - 40
+light squad - 8 dark squad - 8
+normal attack
+undead zombies(25.0) attacks with spear elven Archer(49.0) damage - 18.0
+move - 41
+light squad - 8 dark squad - 8
+normal attack
+elven Archer(43.0) Attacks the enemy undead hunter(37.5) damage - 3.0
+move - 42
+light squad - 8 dark squad - 8
+normal attack
+undead hunter(78.0) shoots with bow elven Archer(43.0) damage - 4.0
+move - 43
+light squad - 8 dark squad - 8
+normal attack
+undead hunter(78.0) shoots with bow elven Archer(39.0) damage - 4.0
+move - 44
+light squad - 8 dark squad - 8
+normal attack
+undead hunter(34.5) attacks elven Archer(31.0) damage - 2.0
+move - 45
+light squad - 8 dark squad - 8
+normal attack
+elven Archer(92.0) Attacks the enemy undead zombies(93.0) damage - 3.0
+move - 46
+light squad - 8 dark squad - 8
+normal attack
+elven Archer(92.0) Attacks the enemy undead zombies(90.0) damage - 3.0
+move - 47
+light squad - 8 dark squad - 8
+normal attack
+elven Archer(35.0) Attacks the enemy undead zombies(25.0) damage - 3.0
+move - 48
+light squad - 8 dark squad - 8
+normal attack
+elven Archer(35.0) shoots with bow undead zombies(22.0) damage - 7.0
+move - 49
+light squad - 8 dark squad - 8
+normal attack
+elven warrior(78.0) Attacks with a sword undead zombies(87.0) damage - 15.0
+move - 50
+light squad - 8 dark squad - 8
+normal attack
+elven Archer(92.0) shoots with bow undead hunter(34.5) damage - 7.0
+move - 51
+light squad - 8 dark squad - 8
+normal attack
+undead hunter(78.0) shoots with bow elven Archer(92.0) damage - 4.0
+move - 52
+light squad - 8 dark squad - 8
+normal attack
+elven Mage(70.0) magic attack undead zombies(70.5) damage - 10.0
+move - 53
+light squad - 8 dark squad - 8
+normal attack
+elven Mage(70.0) magic attack undead hunter(27.5) damage - 10.0
+move - 54
+light squad - 8 dark squad - 8
+normal attack
+elven warrior(100.0) Attacks with a sword undead zombies(72.0) damage - 15.0
+move - 55
+light squad - 8 dark squad - 8
+normal attack
+elven warrior(78.0) Attacks with a sword undead hunter(78.0) damage - 15.0
+move - 56
+light squad - 8 dark squad - 8
+normal attack
+undead zombies(60.5) attacks with spear elven warrior(100.0) damage - 18.0
+move - 57
+light squad - 8 dark squad - 8
+normal attack
+undead hunter(78.0) attacks elven warrior(82.0) damage - 2.0
+move - 58
+light squad - 8 dark squad - 8
+normal attack
+undead hunter(17.5) shoots with bow elven Archer(29.0) damage - 4.0
+move - 59
+light squad - 8 dark squad - 8
+normal attack
+elven Mage(70.0) magic attack undead necromancer(80.0) damage - 10.0
+move - 60
+light squad - 8 dark squad - 8
+normal attack
+undead hunter(17.5) shoots with bow elven warrior(78.0) damage - 4.0
+move - 61
+light squad - 8 dark squad - 8
+normal attack
+undead zombies(82.0) attacks with spear elven warrior(82.0) damage - 18.0
+move - 62
+light squad - 8 dark squad - 8
+normal attack
+undead hunter(63.0) shoots with bow elven Archer(35.0) damage - 4.0
+move - 63
+light squad - 8 dark squad - 8
+normal attack
+elven warrior(100.0) Attacks with a sword undead hunter(63.0) damage - 15.0
+move - 64
+light squad - 8 dark squad - 8
+normal attack
+elven Archer(25.0) Attacks the enemy undead hunter(78.0) damage - 3.0
+move - 65
+light squad - 8 dark squad - 8
+normal attack
+undead hunter(75.0) shoots with bow elven Archer(88.0) damage - 4.0
+move - 66
+light squad - 8 dark squad - 8
+normal attack
+undead zombies(57.0) attacks with spear elven warrior(74.0) damage - 18.0
+move - 67
+light squad - 8 dark squad - 8
+normal attack
+undead zombies(60.5) attacks with spear elven Mage(70.0) damage - 18.0
+move - 68
+light squad - 8 dark squad - 8
+normal attack
+elven warrior(100.0) Attacks with a sword undead hunter(75.0) damage - 15.0
+move - 69
+light squad - 8 dark squad - 8
+normal attack
+undead zombies(15.0) attacks with spear elven warrior(56.0) damage - 18.0
+move - 70
+light squad - 8 dark squad - 8
+normal attack
+undead zombies(57.0) attacks with spear elven warrior(100.0) damage - 18.0
+move - 71
+light squad - 8 dark squad - 8
+normal attack
+undead zombies(57.0) attacks with spear elven warrior(64.0) damage - 18.0
+move - 72
+light squad - 8 dark squad - 8
+normal attack
+elven Archer(25.0) shoots with bow undead zombies(57.0) damage - 7.0
+move - 73
+light squad - 8 dark squad - 8
+normal attack
+elven Archer(31.0) shoots with bow undead zombies(50.0) damage - 7.0
+move - 74
+light squad - 8 dark squad - 8
+normal attack
+undead zombies(15.0) attacks with spear elven warrior(82.0) damage - 18.0
+move - 75
+light squad - 8 dark squad - 8
+normal attack
+elven warrior(46.0) Attacks with a sword undead zombies(60.5) damage - 15.0
+move - 76
+light squad - 8 dark squad - 8
+normal attack
+undead hunter(60.0) shoots with bow elven warrior(64.0) damage - 4.0
+move - 77
+light squad - 8 dark squad - 8
+normal attack
+undead zombies(15.0) attacks with spear elven warrior(80.0) damage - 18.0
+move - 78
+light squad - 8 dark squad - 8
+normal attack
+undead zombies(82.0) attacks with spear elven Archer(25.0) damage - 18.0
+move - 79
+light squad - 8 dark squad - 8
+normal attack
+undead zombies(82.0) attacks with spear elven warrior(38.0) damage - 18.0
+move - 80
+light squad - 8 dark squad - 8
+normal attack
+undead zombies(43.0) attacks with spear elven Archer(31.0) damage - 18.0
+move - 81
+light squad - 8 dark squad - 8
+normal attack
+elven warrior(60.0) Attacks with a sword undead zombies(82.0) damage - 15.0
+move - 82
+light squad - 8 dark squad - 8
+normal attack
+undead hunter(17.5) attacks elven warrior(60.0) damage - 2.0
+move - 83
+light squad - 8 dark squad - 8
+normal attack
+undead hunter(60.0) shoots with bow elven warrior(20.0) damage - 4.0
+move - 84
+light squad - 8 dark squad - 8
+normal attack
+undead zombies(67.0) attacks with spear elven warrior(58.0) damage - 18.0
+move - 85
+light squad - 8 dark squad - 8
+normal attack
+elven Archer(84.0) shoots with bow undead hunter(48.0) damage - 7.0
+move - 86
+light squad - 8 dark squad - 8
+normal attack
+undead hunter(41.0) shoots with bow elven Archer(13.0) damage - 4.0
+move - 87
+light squad - 8 dark squad - 8
+normal attack
+undead zombies(15.0) attacks with spear elven warrior(62.0) damage - 18.0
+move - 88
+light squad - 8 dark squad - 8
+normal attack
+elven warrior(16.0) Attacks with a sword undead hunter(41.0) damage - 15.0
+move - 89
+light squad - 8 dark squad - 8
+normal attack
+undead zombies(15.0) attacks with spear elven warrior(16.0) damage - 18.0
+elven warrior - is dead
+move - 90
+light squad - 7 dark squad - 8
+normal attack
+elven Archer(9.0) shoots with bow undead hunter(17.5) damage - 7.0
+move - 91
+light squad - 7 dark squad - 8
+normal attack
+elven warrior(40.0) Attacks with a sword undead zombies(15.0) damage - 15.0
+undead zombies - is dead
+move - 92
+light squad - 7 dark squad - 7
+normal attack
+elven Archer(7.0) shoots with bow undead hunter(10.5) damage - 7.0
+move - 93
+light squad - 7 dark squad - 7
+normal attack
+undead zombies(45.5) attacks with spear elven Archer(7.0) damage - 18.0
+elven Archer - is dead
+move - 94
+light squad - 6 dark squad - 7
+normal attack
+elven Archer(84.0) Attacks the enemy undead zombies(67.0) damage - 3.0
+move - 95
+light squad - 6 dark squad - 7
+normal attack
+undead necromancer(70.0) magic attack elven warrior(44.0) damage - 5.0
+move - 96
+light squad - 6 dark squad - 7
+normal attack
+undead zombies(43.0) attacks with spear elven Archer(9.0) damage - 18.0
+elven Archer - is dead
+move - 97
+light squad - 5 dark squad - 7
+normal attack
+undead zombies(43.0) attacks with spear elven Mage(52.0) damage - 18.0
+move - 98
+light squad - 5 dark squad - 7
+normal attack
+elven Mage(34.0) cast improvement elven Mage(34.0)
+move - 99
+light squad - 5 dark squad - 7
+normal attack
+undead zombies(64.0) attacks with spear elven warrior(39.0) damage - 18.0
+move - 100
+light squad - 5 dark squad - 7
+normal attack
+undead zombies(64.0) attacks with spear elven warrior(46.0) damage - 18.0
+move - 101
+light squad - 5 dark squad - 7
+improved attack
+elven Mage(34.0) cast improvement elven warrior(28.0)
+move - 102
+light squad - 5 dark squad - 7
+improved attack
+elven warrior(28.0) Attacks with a sword undead zombies(45.5) damage - 22.5
+move - 103
+light squad - 5 dark squad - 7
+normal attack
+elven warrior(21.0) Attacks with a sword undead hunter(60.0) damage - 7.5
+elven warrior curse is broken
+move - 104
+light squad - 5 dark squad - 7
+normal attack
+elven warrior(40.0) Attacks with a sword undead zombies(23.0) damage - 15.0
+move - 105
+light squad - 5 dark squad - 7
+normal attack
+elven Archer(84.0) shoots with bow undead necromancer(70.0) damage - 7.0
+move - 106
+light squad - 5 dark squad - 7
+normal attack
+undead zombies(64.0) attacks with spear elven warrior(21.0) damage - 18.0
+move - 107
+light squad - 5 dark squad - 7
+normal attack
+elven Archer(84.0) Attacks the enemy undead zombies(43.0) damage - 3.0
+move - 108
+light squad - 5 dark squad - 7
+normal attack
+elven warrior(40.0) Attacks with a sword undead zombies(64.0) damage - 15.0
+move - 109
+light squad - 5 dark squad - 7
+normal attack
+elven warrior(28.0) Attacks with a sword undead hunter(26.0) damage - 15.0
+move - 110
+light squad - 5 dark squad - 7
+normal attack
+elven warrior(3.0) Attacks with a sword undead hunter(52.5) damage - 15.0
+move - 111
+light squad - 5 dark squad - 7
+normal attack
+undead hunter(11.0) attacks elven warrior(3.0) damage - 2.0
+move - 112
+light squad - 5 dark squad - 7
+normal attack
+undead zombies(8.0) attacks with spear elven warrior(40.0) damage - 18.0
+move - 113
+light squad - 5 dark squad - 7
+normal attack
+elven Archer(84.0) Attacks the enemy undead hunter(37.5) damage - 3.0
+move - 114
+light squad - 5 dark squad - 7
+normal attack
+undead zombies(40.0) attacks with spear elven Mage(34.0) damage - 18.0
+move - 115
+light squad - 5 dark squad - 7
+normal attack
+elven Mage(16.0) magic attack undead zombies(49.0) damage - 10.0
+move - 116
+light squad - 5 dark squad - 7
+normal attack
+elven warrior cursed attack -50
+move - 117
+light squad - 5 dark squad - 7
+normal attack
+undead hunter(34.5) attacks elven Mage(16.0) damage - 2.0
+move - 118
+light squad - 5 dark squad - 7
+normal attack
+elven Mage(14.0) cast improvement elven Mage(14.0)
+move - 119
+light squad - 5 dark squad - 7
+improved attack
+elven Mage(14.0) magic attack undead hunter(34.5) damage - 15.0
+move - 120
+light squad - 5 dark squad - 7
+normal attack
+undead zombies(39.0) attacks with spear elven warrior(22.0) damage - 18.0
+move - 121
+light squad - 5 dark squad - 7
+normal attack
+undead zombies(39.0) attacks with spear elven warrior(1.0) damage - 18.0
+elven warrior - is dead
+move - 122
+light squad - 4 dark squad - 7
+normal attack
+undead necromancer(63.0) magic attack elven warrior(4.0) damage - 5.0
+elven warrior - is dead
+move - 123
+light squad - 3 dark squad - 7
+normal attack
+undead zombies(8.0) attacks with spear elven Mage(14.0) damage - 18.0
+elven Mage - is dead
+move - 124
+light squad - 2 dark squad - 7
+normal attack
+undead hunter(19.5) shoots with bow elven warrior(28.0) damage - 4.0
+move - 125
+light squad - 2 dark squad - 7
+normal attack
+elven warrior(24.0) Attacks with a sword undead zombies(8.0) damage - 15.0
+undead zombies - is dead
+move - 126
+light squad - 2 dark squad - 6
+normal attack
+elven warrior(24.0) Attacks with a sword undead hunter(3.5) damage - 15.0
+undead hunter - is dead
+move - 127
+light squad - 2 dark squad - 5
+normal attack
+undead hunter(19.5) shoots with bow elven Archer(84.0) damage - 4.0
+move - 128
+light squad - 2 dark squad - 5
+normal attack
+elven warrior(24.0) Attacks with a sword undead zombies(39.0) damage - 15.0
+move - 129
+light squad - 2 dark squad - 5
+normal attack
+undead zombies(40.0) attacks with spear elven warrior(24.0) damage - 18.0
+move - 130
+light squad - 2 dark squad - 5
+normal attack
+undead hunter(19.5) shoots with bow elven Archer(80.0) damage - 4.0
+move - 131
+light squad - 2 dark squad - 5
+normal attack
+elven warrior(6.0) Attacks with a sword undead hunter(11.0) damage - 15.0
+undead hunter - is dead
+move - 132
+light squad - 2 dark squad - 4
+normal attack
+undead necromancer(63.0) magic attack elven warrior(6.0) damage - 5.0
+move - 133
+light squad - 2 dark squad - 4
+normal attack
+elven warrior(1.0) Attacks with a sword undead zombies(24.0) damage - 15.0
+move - 134
+light squad - 2 dark squad - 4
+normal attack
+elven warrior(1.0) Attacks with a sword undead hunter(19.5) damage - 15.0
+move - 135
+light squad - 2 dark squad - 4
+normal attack
+undead zombies(9.0) attacks with spear elven Archer(76.0) damage - 18.0
+move - 136
+light squad - 2 dark squad - 4
+normal attack
+elven Archer(58.0) shoots with bow undead zombies(40.0) damage - 7.0
+move - 137
+light squad - 2 dark squad - 4
+normal attack
+elven warrior(1.0) Attacks with a sword undead zombies(9.0) damage - 15.0
+undead zombies - is dead
+move - 138
+light squad - 2 dark squad - 3
+normal attack
+elven warrior(1.0) Attacks with a sword undead necromancer(63.0) damage - 15.0
+move - 139
+light squad - 2 dark squad - 3
+normal attack
+undead hunter(4.5) attacks elven Archer(58.0) damage - 2.0
+move - 140
+light squad - 2 dark squad - 3
+normal attack
+undead hunter(4.5) attacks elven warrior(1.0) damage - 2.0
+elven warrior - is dead
+move - 141
+light squad - 1 dark squad - 3
+normal attack
+elven Archer cursed attack -50
+move - 142
+light squad - 1 dark squad - 3
+normal attack
+elven Archer(56.0) Attacks the enemy undead hunter(4.5) damage - 1.5
+elven Archer curse is broken
+move - 143
+light squad - 1 dark squad - 3
+normal attack
+elven Archer(56.0) Attacks the enemy undead zombies(33.0) damage - 3.0
+move - 144
+light squad - 1 dark squad - 3
+normal attack
+elven Archer(56.0) shoots with bow undead zombies(30.0) damage - 7.0
+move - 145
+light squad - 1 dark squad - 3
+normal attack
+elven Archer(56.0) shoots with bow undead necromancer(48.0) damage - 7.0
+move - 146
+light squad - 1 dark squad - 3
+normal attack
+undead hunter(3.0) shoots with bow elven Archer(56.0) damage - 4.0
+move - 147
+light squad - 1 dark squad - 3
+normal attack
+undead zombies(23.0) attacks with spear elven Archer(52.0) damage - 18.0
+move - 148
+light squad - 1 dark squad - 3
+normal attack
+elven Archer(34.0) shoots with bow undead zombies(23.0) damage - 7.0
+move - 149
+light squad - 1 dark squad - 3
+normal attack
+undead zombies(16.0) attacks with spear elven Archer(34.0) damage - 18.0
+move - 150
+light squad - 1 dark squad - 3
+normal attack
+elven Archer(16.0) Attacks the enemy undead necromancer(41.0) damage - 3.0
+move - 151
+light squad - 1 dark squad - 3
+normal attack
+elven Archer(16.0) Attacks the enemy undead hunter(3.0) damage - 3.0
+undead hunter - is dead
+move - 152
+light squad - 1 dark squad - 2
+normal attack
+elven Archer(16.0) shoots with bow undead zombies(16.0) damage - 7.0
+move - 153
+light squad - 1 dark squad - 2
+normal attack
+elven Archer(16.0) Attacks the enemy undead zombies(9.0) damage - 3.0
+move - 154
+light squad - 1 dark squad - 2
+normal attack
+undead zombies(6.0) attacks with spear elven Archer(16.0) damage - 18.0
+elven Archer - is dead
+The dark units won!
+Survivors:
+   undead zombies(6.0)
+   undead necromancer(38.0)
