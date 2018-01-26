@@ -1,6 +1,7 @@
 package ru.job4j.tree;
 
 import org.junit.Test;
+
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
@@ -49,5 +50,38 @@ public class TreeTest {
         Tree<Integer> tree = new Tree<>(1);
         tree.add(1, 2);
         assertThat(tree.findBy(7).isPresent(), is(false));
+    }
+
+    /**
+     * The test method check, when tree is not binary (have children > 2).
+     *
+     * @throws Exception - check any errors;
+     */
+    @Test
+    public void whenTreeIsNotBinary() throws Exception {
+        Tree<String> tree = new Tree<>("1");
+        tree.add("1", "2");
+        tree.add("1", "3");
+        tree.add("1", "7");
+        tree.add("2", "4");
+        tree.add("3", "5");
+        tree.add("4", "6");
+        assertThat(tree.isBinary(), is(false));
+    }
+
+    /**
+     * The test method check, when tree is binary (have children < 3).
+     *
+     * @throws Exception - check any errors;
+     */
+    @Test
+    public void whenTreeIsBinary() throws Exception {
+        Tree<String> tree = new Tree<>("1");
+        tree.add("1", "2");
+        tree.add("1", "3");
+        tree.add("2", "4");
+        tree.add("3", "5");
+        tree.add("4", "6");
+        assertThat(tree.isBinary(), is(true));
     }
 }
