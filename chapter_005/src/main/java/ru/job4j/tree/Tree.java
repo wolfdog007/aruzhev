@@ -140,7 +140,7 @@ public class Tree<E extends Comparable<E>> implements SimpleTree<E> {
      * @return - true - is binary; false - is not binary;
      */
     private boolean checkIsBinary(Node<E> head, boolean result) {
-        if (head != null && (result = head.leaves().size() <= 2)) {
+        if (head != null && result && (result = head.leaves().size() <= 2)) {
             for (Node<E> element : head.leaves()) {
                 result = checkIsBinary(element, result);
             }
