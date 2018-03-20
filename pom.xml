@@ -19,8 +19,9 @@
 		<module>chapter_003</module>
 		<module>tracker</module>
         <module>chapter_005</module>
+		<module>multithreading</module>
 
-    </modules>
+	</modules>
 	
 	<dependencies>
 		<dependency>
