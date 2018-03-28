@@ -25,6 +25,7 @@ public class TextCounter {
      * Start process.
      */
     public void start() {
+        System.out.println("Start program");
         WordCounter wordCounter = new WordCounter(this.offer);
         SpaceCounter spaceCounter = new SpaceCounter(this.offer);
         wordCounter.start();
@@ -35,6 +36,7 @@ public class TextCounter {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        System.out.println("Stop program");
     }
 }
 
