@@ -1,15 +1,20 @@
 package ru.job4j.list;
 
+import net.jcip.annotations.GuardedBy;
+import net.jcip.annotations.ThreadSafe;
+
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 /**
  * Dynamic list based on an array with iterator.
+ *
  * @param <E> the type of elements in this collection
  * @author Ruzhev Alexander
  * @since 06.10.2017
  */
+@ThreadSafe
 public class MyDynamicArray<E> implements Iterable<E> {
     /**
      * Default initial capacity.
@@ -18,6 +23,7 @@ public class MyDynamicArray<E> implements Iterable<E> {
     /**
      * The array buffer into which the elements of the ArrayList are stored.
      */
+    @GuardedBy("this")
     private Object[] container;
     /**
      * The size of the ArrayList (the number of elements it contains).
@@ -46,10 +52,12 @@ public class MyDynamicArray<E> implements Iterable<E> {
      * @param value element to be appended to this list
      */
     public void add(E value) {
-        if (size == container.length) {
-            increaseContainer();
+        synchronized (this) {
+            if (size == container.length) {
+                increaseContainer();
+            }
+            container[size++] = value;
         }
-        container[size++] = value;
     }
 
     /**
@@ -59,7 +67,9 @@ public class MyDynamicArray<E> implements Iterable<E> {
      * @return the element at the specified position in this list
      */
     public E get(int index) {
-        return (E) this.container[index];
+        synchronized (this) {
+            return (E) this.container[index];
+        }
     }
 
     /**

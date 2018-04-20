@@ -1,5 +1,7 @@
 package ru.job4j.list;
 
+import net.jcip.annotations.GuardedBy;
+import net.jcip.annotations.ThreadSafe;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
@@ -11,18 +13,22 @@ import java.util.NoSuchElementException;
  * @author Ruzhev Alexander
  * @since 07.10.2017
  */
+@ThreadSafe
 public class MyLinkedList<E> implements Iterable<E> {
     /**
      * The number of elements.
      */
+    @GuardedBy("this")
     private int size;
     /**
      * Reference to the first element.
      */
+    @GuardedBy("this")
     private Node<E> first;
     /**
      * Reference to the last element.
      */
+    @GuardedBy("this")
     private Node<E> last;
 
     /**
@@ -38,15 +44,17 @@ public class MyLinkedList<E> implements Iterable<E> {
      * @param value element to be appended to this list
      */
     public void add(E value) {
-        Node<E> node = new Node<E>(this.last, value, null);
-        if (this.first == null) {
-            this.first = node;
-            this.last = node;
-        } else {
-            this.last.next = node;
-            this.last = node;
+        synchronized (this) {
+            Node<E> node = new Node<E>(this.last, value, null);
+            if (this.first == null) {
+                this.first = node;
+                this.last = node;
+            } else {
+                this.last.next = node;
+                this.last = node;
+            }
+            size++;
         }
-        size++;
     }
 
     /**
@@ -56,14 +64,16 @@ public class MyLinkedList<E> implements Iterable<E> {
      * @return the element at the specified position in this list
      */
     public E get(int index) {
-        if (this.first == null || index >= size) {
-            throw new NoSuchElementException();
+        synchronized (this) {
+            if (this.first == null || index >= size) {
+                throw new NoSuchElementException();
+            }
+            Node<E> result = this.first;
+            for (int i = 0; i < index; i++) {
+                result = result.next;
+            }
+            return result.item;
         }
-        Node<E> result = this.first;
-        for (int i = 0; i < index; i++) {
-            result = result.next;
-        }
-        return result.item;
     }
 
     /**
@@ -117,9 +127,10 @@ public class MyLinkedList<E> implements Iterable<E> {
 
         /**
          * Constructor.
-         * @param prev previous element
+         *
+         * @param prev    previous element
          * @param element the stored object.
-         * @param next next element.
+         * @param next    next element.
          */
         Node(Node<E> prev, E element, Node<E> next) {
             this.item = element;
