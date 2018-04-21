@@ -17,7 +17,7 @@ public class UserStorage {
     /**
      * Collection for storage users.
      */
-    @GuardedBy("this")
+    @GuardedBy("itself")
     private final Map<Integer, User> storage;
 
     /**
@@ -85,7 +85,9 @@ public class UserStorage {
      * @return user
      */
     public User get(int id) {
-        return this.storage.get(id);
+        synchronized (this.storage) {
+            return this.storage.get(id);
+        }
     }
 
     /**
@@ -98,11 +100,11 @@ public class UserStorage {
      */
     public boolean transfer(int fromId, int toId, int amount) {
         boolean result = false;
-        User sender = this.storage.get(fromId);
-        User recipient = this.storage.get(toId);
-        if (sender != null && recipient != null) {
-            if (result = amount > 0 && sender.getAmount() >= amount) {
-                synchronized (this.storage) {
+        synchronized (this.storage) {
+            User sender = this.storage.get(fromId);
+            User recipient = this.storage.get(toId);
+            if (sender != null && recipient != null) {
+                if (result = amount > 0 && sender.getAmount() >= amount) {
                     this.storage.put(fromId, new User(fromId, sender.getAmount() - amount));
                     this.storage.put(toId, new User(toId, recipient.getAmount() + amount));
                 }
