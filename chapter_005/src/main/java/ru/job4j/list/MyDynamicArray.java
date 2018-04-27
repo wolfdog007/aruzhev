@@ -28,6 +28,7 @@ public class MyDynamicArray<E> implements Iterable<E> {
     /**
      * The size of the ArrayList (the number of elements it contains).
      */
+    @GuardedBy("this")
     private int size = 0;
 
     /**
@@ -76,7 +77,15 @@ public class MyDynamicArray<E> implements Iterable<E> {
      * Increases the capacity of the container.
      */
     private void increaseContainer() {
-        this.container = Arrays.copyOf(this.container, this.container.length * 3 / 2 + 1);
+        synchronized (this) {
+            this.container = Arrays.copyOf(this.container, this.container.length * 3 / 2 + 1);
+        }
+    }
+
+    public int getSize() {
+        synchronized (this) {
+            return size;
+        }
     }
 
     /**
@@ -94,7 +103,7 @@ public class MyDynamicArray<E> implements Iterable<E> {
 
             @Override
             public boolean hasNext() {
-                return this.position < size;
+                return this.position < getSize();
             }
 
             @Override

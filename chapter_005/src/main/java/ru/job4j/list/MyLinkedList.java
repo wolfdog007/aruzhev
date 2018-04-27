@@ -77,6 +77,16 @@ public class MyLinkedList<E> implements Iterable<E> {
     }
 
     /**
+     * Return head to iterator.
+     * @return first
+     */
+    private Node<E> getFirst() {
+        synchronized (this) {
+            return first;
+        }
+    }
+
+    /**
      * Returns an iterator over elements of type {@code E}.
      *
      * @return an Iterator.
@@ -87,7 +97,7 @@ public class MyLinkedList<E> implements Iterable<E> {
             /**
              * Position in array.
              */
-            private Node<E> position = first;
+            private Node<E> position = getFirst();
 
             @Override
             public boolean hasNext() {
