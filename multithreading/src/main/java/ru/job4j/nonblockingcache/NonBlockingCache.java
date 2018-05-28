@@ -53,14 +53,14 @@ public class NonBlockingCache<K, V extends Model> {
      * @throws OptimisticException
      */
     public V update(K key, V value) {
-        V contain = this.map.get(key);
-        if (contain.getVersion() != value.getVersion()) {
-            throw new OptimisticException("Incorrect version object.");
-        } else {
-            this.map.replace(key, value);
-            value.updateVersion();
-        }
-        return value;
+        return this.map.computeIfPresent(key, (k, v) -> {
+            if (value.getVersion() != v.getVersion()) {
+                throw new OptimisticException("Incorrect version object.");
+            } else {
+                value.updateVersion();
+            }
+            return value;
+        });
     }
 
     /**
