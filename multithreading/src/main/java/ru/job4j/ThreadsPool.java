@@ -74,28 +74,12 @@ public class ThreadsPool {
     }
 
     /**
-     * Get new work.
-     *
-     * @throws InterruptedException - interrupted exception
-     */
-    private void execute() throws InterruptedException {
-        synchronized (this.queue) {
-            while (this.queue.isEmpty()) {
-                this.queue.wait();
-                System.out.printf("%s is wait...%s", Thread.currentThread().getName(), System.lineSeparator());
-            }
-            Work work = this.queue.poll();
-            work.start();
-            work.join();
-        }
-    }
-
-    /**
      * The inner class producer.
      */
     private class Producer extends Thread {
         /**
          * Constructor.
+         *
          * @param name - work name
          */
         Producer(String name) {
@@ -107,10 +91,17 @@ public class ThreadsPool {
             System.out.printf("%s is start;%s", this.getName(), System.lineSeparator());
             try {
                 while (!this.isInterrupted()) {
-                    execute();
+                    synchronized (ThreadsPool.this.queue) {
+                        while (ThreadsPool.this.queue.isEmpty()) {
+                            System.out.printf("%s is wait...%s", Thread.currentThread().getName(), System.lineSeparator());
+                            ThreadsPool.this.queue.wait();
+                        }
+                        Work work = ThreadsPool.this.queue.poll();
+                        work.run();
+                    }
                 }
             } catch (InterruptedException e) {
-                //empty block
+                e.printStackTrace();
             }
             System.out.printf("%s is stop;%s", this.getName(), System.lineSeparator());
         }

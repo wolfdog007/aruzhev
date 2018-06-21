@@ -16,6 +16,7 @@ public class ThreadsPoolTest {
 
     /**
      * Test for add.
+     *
      * @throws Exception - any exception
      */
     @Test
@@ -27,6 +28,7 @@ public class ThreadsPoolTest {
                 pool.startThread();
             }
         }
+        Thread.currentThread().sleep(10000);
         System.out.println("Stopped");
         pool.stopThreads();
     }
